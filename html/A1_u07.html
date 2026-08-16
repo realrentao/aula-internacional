@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unidad 7 · ¡A comer! (A1) — Aula Internacional</title>
+<link rel="stylesheet" href="../css/aula-styles.css">
+</head>
+<body>
+<div class="scroll-progress"></div>
+<nav class="top-nav">
+  <div class="logo"><span class="flag">🇪🇸</span> Aula Internacional · 西语自学站</div>
+  <nav>
+    <a href="../index.html">首页</a>
+    <a href="#dialogos">对话</a>
+    <a href="#vocabulario">词汇</a>
+    <a href="#gramatica">语法</a>
+    <a href="#cultura">文化</a>
+    <a href="#" onclick="toggleDark()">🌓</a>
+  </nav>
+</nav>
+
+<header class="unit-hero">
+  <span class="badge">Nivel A1</span>
+  <h1>Unidad 7 · ¡A comer!</h1>
+  <div class="sub">Crear un menú del día y elegir los platos que nos gustan · 制作今日菜单并挑选我们爱吃的菜</div>
+  <div class="tags">
+    <span class="tag">交际：酒吧餐厅应对·询问食物信息·饮食习惯</span>
+    <span class="tag">语法：se无人称·poner/traer·直接宾语代词</span>
+    <span class="tag">词汇：餐食·食材·烹饪法·西语名菜</span>
+  </div>
+</header>
+
+<section class="page-section" id="dialogos">
+  <h2>💬 Diálogos · 核心对话</h2>
+  <p>同学们在筹划班级聚餐的「今日菜单」。点击任意西语句子可听发音。</p>
+
+  <h3>En el bar / restaurante · 在酒吧/餐厅</h3>
+  <table class="dialog-table">
+    <tr><td>Camarero</td><td><span class="click" onclick="speak('¿Qué quiere comer?')">¿Qué quiere comer?</span> — <b>您想吃点什么？</b></td></tr>
+    <tr><td>Cliente</td><td><span class="click" onclick="speak('Quiero una paella, por favor.')">Quiero una paella, por favor.</span> — <b>我要一份海鲜饭，谢谢。</b></td></tr>
+    <tr><td>Pregunta</td><td><span class="click" onclick="speak('¿Qué hay de primero?')">¿Qué hay de primero?</span> — <b>头道有什么？</b></td></tr>
+    <tr><td>Respuesta</td><td><span class="click" onclick="speak('Hay gazpacho y ensalada.')">Hay gazpacho y ensalada.</span> — <b>有西班牙冷汤和沙拉。</b></td></tr>
+  </table>
+
+  <h3>Pedir información sobre comida · 询问食物信息</h3>
+  <table class="dialog-table">
+    <tr><td>Pregunta</td><td><span class="click" onclick="speak('¿Qué es la paella?')">¿Qué es la paella?</span> — <b>海鲜饭是什么？</b></td></tr>
+    <tr><td>Respuesta</td><td><span class="click" onclick="speak('Se hace con arroz, marisco y verduras.')">Se hace con arroz, marisco y verduras.</span> — <b>用米、海鲜和蔬菜做成。</b></td></tr>
+    <tr><td>Respuesta</td><td><span class="click" onclick="speak('Se come mucho en Valencia.')">Se come mucho en Valencia.</span> — <b>在巴伦西亚很常吃。</b></td></tr>
+  </table>
+
+  <h3>Hábitos gastronómicos · 饮食习惯</h3>
+  <table class="dialog-table">
+    <tr><td>Pregunta</td><td><span class="click" onclick="speak('¿Qué desayunas normalmente?')">¿Qué desayunas normalmente?</span> — <b>你平时早餐吃什么？</b></td></tr>
+    <tr><td>Respuesta</td><td><span class="click" onclick="speak('Desayuno café con leche y tostadas.')">Desayuno café con leche y tostadas.</span> — <b>我吃咖啡加奶和吐司。</b></td></tr>
+    <tr><td>Respuesta</td><td><span class="click" onclick="speak('La paella la preparo los domingos.')">La paella la preparo los domingos.</span> — <b>海鲜饭我星期天才做。</b></td></tr>
+  </table>
+</section>
+
+<section class="page-section" id="vocabulario">
+  <h2 class="vocab-heading">📖 Vocabulario · 词汇表</h2>
+
+  <h3>Las comidas del día · 一天的各餐</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('el desayuno')">el desayuno</span></td><td class="zh">早餐</td></tr>
+      <tr><td><span class="click" onclick="speak('el almuerzo')">el almuerzo</span></td><td class="zh">午餐（午间）</td></tr>
+      <tr><td><span class="click" onclick="speak('la comida')">la comida</span></td><td class="zh">午饭（主餐）</td></tr>
+      <tr><td><span class="click" onclick="speak('la merienda')">la merienda</span></td><td class="zh">下午茶/点心</td></tr>
+      <tr><td><span class="click" onclick="speak('la cena')">la cena</span></td><td class="zh">晚餐</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Alimentos · 食材</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('el pan')">el pan</span></td><td class="zh">面包</td></tr>
+      <tr><td><span class="click" onclick="speak('el arroz')">el arroz</span></td><td class="zh">米</td></tr>
+      <tr><td><span class="click" onclick="speak('la pasta')">la pasta</span></td><td class="zh">面食</td></tr>
+      <tr><td><span class="click" onclick="speak('la carne')">la carne</span></td><td class="zh">肉</td></tr>
+      <tr><td><span class="click" onclick="speak('el pescado')">el pescado</span></td><td class="zh">鱼</td></tr>
+      <tr><td><span class="click" onclick="speak('el pollo')">el pollo</span></td><td class="zh">鸡肉</td></tr>
+      <tr><td><span class="click" onclick="speak('las verduras')">las verduras</span></td><td class="zh">蔬菜</td></tr>
+      <tr><td><span class="click" onclick="speak('la fruta')">la fruta</span></td><td class="zh">水果</td></tr>
+      <tr><td><span class="click" onclick="speak('el huevo')">el huevo</span></td><td class="zh">蛋</td></tr>
+      <tr><td><span class="click" onclick="speak('la leche')">la leche</span></td><td class="zh">牛奶</td></tr>
+      <tr><td><span class="click" onclick="speak('el queso')">el queso</span></td><td class="zh">奶酪</td></tr>
+      <tr><td><span class="click" onclick="speak('el tomate')">el tomate</span></td><td class="zh">番茄</td></tr>
+      <tr><td><span class="click" onclick="speak('la patata')">la patata</span></td><td class="zh">土豆</td></tr>
+      <tr><td><span class="click" onclick="speak('el aceite')">el aceite</span></td><td class="zh">油（橄榄油）</td></tr>
+      <tr><td><span class="click" onclick="speak('el jamón')">el jamón</span></td><td class="zh">火腿</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Maneras de cocinar · 烹饪方式</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('frito')">frito / frita</span></td><td class="zh">炸的</td></tr>
+      <tr><td><span class="click" onclick="speak('hervido')">hervido / hervida</span></td><td class="zh">煮的</td></tr>
+      <tr><td><span class="click" onclick="speak('a la plancha')">a la plancha</span></td><td class="zh">煎的</td></tr>
+      <tr><td><span class="click" onclick="speak('al horno')">al horno</span></td><td class="zh">烤的</td></tr>
+      <tr><td><span class="click" onclick="speak('a la parrilla')">a la parrilla</span></td><td class="zh">炙烤的</td></tr>
+      <tr><td><span class="click" onclick="speak('crudo')">crudo / cruda</span></td><td class="zh">生的</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Platos habituales · 西语世界常见菜肴</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th><th>来源</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('la paella')">la paella</span></td><td class="zh">海鲜饭</td><td>西班牙·巴伦西亚</td></tr>
+      <tr><td><span class="click" onclick="speak('la tortilla de patatas')">la tortilla de patatas</span></td><td class="zh">土豆饼</td><td>西班牙</td></tr>
+      <tr><td><span class="click" onclick="speak('el gazpacho')">el gazpacho</span></td><td class="zh">西班牙冷汤</td><td>西班牙·安达卢西亚</td></tr>
+      <tr><td><span class="click" onclick="speak('el cocido')">el cocido</span></td><td class="zh">杂烩炖菜</td><td>西班牙</td></tr>
+      <tr><td><span class="click" onclick="speak('las tapas')">las tapas</span></td><td class="zh">小吃/下酒菜</td><td>西班牙</td></tr>
+      <tr><td><span class="click" onclick="speak('la empanada')">la empanada</span></td><td class="zh">馅饼</td><td>拉美/西班牙</td></tr>
+      <tr><td><span class="click" onclick="speak('el guacamole')">el guacamole</span></td><td class="zh">牛油果酱</td><td>墨西哥</td></tr>
+      <tr><td><span class="click" onclick="speak('el ceviche')">el ceviche</span></td><td class="zh">柠檬汁腌鱼</td><td>秘鲁</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="page-section" id="gramatica">
+  <h2>📚 Gramática · 语法点</h2>
+
+  <div class="grammar-box">
+    <h4>La forma impersonal con se · se 无人称句</h4>
+    <p>用 <span class="verb">se + 动词第三人称</span> 表示「人们（泛指）……」，不指明主语。例：<span class="click" onclick="speak('Se come a las dos.')">Se come a las dos.</span>（人们两点吃饭。）/ <span class="click" onclick="speak('Se habla español aquí.')">Se habla español aquí.</span>（这里说西班牙语。）/ <span class="click" onclick="speak('Se hace con arroz.')">Se hace con arroz.</span>（用米做。）</p>
+  </div>
+
+  <div class="grammar-box">
+    <h4>Los verbos poner y traer · poner 与 traer</h4>
+    <p><span class="verb">poner</span>（放）：pongo / pones / pone / ponemos / ponéis / ponen。<span class="verb">traer</span>（带来，不规则 go 型）：traigo / traes / trae / traemos / traéis / traen。例：<span class="click" onclick="speak('Pongo la mesa.')">Pongo la mesa.</span>（我摆桌。）/ <span class="click" onclick="speak('Traigo la paella.')">Traigo la paella.</span>（我把海鲜饭带来。）</p>
+  </div>
+
+  <div class="grammar-box">
+    <h4>Los pronombres de OD (lo, la, los, las) · 直接宾语代词</h4>
+    <p>替代直接宾语（事物），位于变位动词前：lo（阳单）、la（阴单）、los（阳复）、las（阴复）。例：<span class="click" onclick="speak('La paella la preparo los domingos.')">La paella la preparo los domingos.</span>（海鲜饭我星期天做——la 指代 la paella。）/ <span class="click" onclick="speak('El pan lo compro en la panadería.')">El pan lo compro en la panadería.</span>（面包我在面包店买。）</p>
+  </div>
+</section>
+
+<section class="page-section" id="cultura">
+  <h2>☕ Café Cultural · 文化角</h2>
+  <div class="cultura-box">
+    <h4>Las tapas y la hora de comer · 小吃与用餐时间</h4>
+    <p>西班牙饮食文化少不了 <span class="click" onclick="speak('las tapas')">las tapas</span>——配酒的小份菜肴，朋友间常「ir de tapas」（一家家转着吃小吃）。<span class="click" onclick="speak('la comida')">la comida</span>（主午餐）约 14–15 点，<span class="click" onclick="speak('la cena')">la cena</span> 约 21 点，比中文习惯晚很多。周末家庭聚餐常做 <span class="click" onclick="speak('paella')">paella</span>。</p>
+    <p><b>中文对照：</b>中文「做菜」主语是人；西语常用 <span class="click" onclick="speak('se hace')">se hace</span> 无人称，强调做法本身而非谁做。</p>
+  </div>
+</section>
+
+<div class="nav-buttons">
+  <a href="../index.html">← 返回首页</a>
+  <a class="secondary" href="#top">↑ 顶部</a>
+  <a href="A1_u08.html">下一单元 →</a>
+</div>
+
+<footer class="site-footer">
+  <p>Aula Internacional 1 (A1) · 本页内容依据原版教材提取并配中文翻译 · 发音使用浏览器西班牙语语音</p>
+  <p>© 西班牙语自学站 · 仅供学习使用</p>
+</footer>
+<script src="../js/aula-audio.js"></script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unidad 2 · Una vida de película (A2) — Aula Internacional</title>
+<link rel="stylesheet" href="../css/aula-styles.css">
+</head>
+<body>
+<div class="scroll-progress"></div>
+<nav class="top-nav">
+  <div class="logo"><span class="flag">🇪🇸</span> Aula Internacional · 西语自学站</div>
+  <nav>
+    <a href="../index.html">首页</a>
+    <a href="#dialogos">对话</a>
+    <a href="#vocabulario">词汇</a>
+    <a href="#gramatica">语法</a>
+    <a href="#cultura">文化</a>
+    <a href="#" onclick="toggleDark()">🌓</a>
+  </nav>
+</nav>
+
+<header class="unit-hero">
+  <span class="badge">Nivel A2</span>
+  <h1>Unidad 2 · Una vida de película</h1>
+  <div class="sub">Escribir una biografía · 写一篇人物传记</div>
+  <div class="tags">
+    <span class="tag">交际：讲述与串联过去的事、谈动作的开始与持续</span>
+    <span class="tag">语法：陈述式过去未完成时（pretérito indefinido）、empezar a + 原形</span>
+    <span class="tag">词汇：电影、传记</span>
+  </div>
+</header>
+
+<section class="page-section" id="dialogos">
+  <h2>💬 Diálogos · 核心对话</h2>
+  <p>本单元围绕“传记与往事”展开。人们讲述名人成就、个人经历，并用过去时串联事件。点击任意西语句子可听发音。</p>
+  <table class="dialog-table">
+    <tr><td>Logro</td><td><span class="click" onclick="speak('Rita Moreno fue la primera actriz hispana que ganó un Oscar.')">Rita Moreno fue la primera actriz hispana que ganó un Oscar.</span> — <b>丽塔·莫雷诺是第一位获得奥斯卡奖的西班牙裔女演员。</b></td></tr>
+    <tr><td>Logro</td><td><span class="click" onclick="speak('Pablo Picasso pintó el primer cuadro cubista en 1907.')">Pablo Picasso pintó el primer cuadro cubista en 1907.</span> — <b>毕加索于1907年画出了第一幅立体主义画作。</b></td></tr>
+    <tr><td>Experiencia</td><td><span class="click" onclick="speak('En 2006 hice un viaje de tres meses por África.')">En 2006 hice un viaje de tres meses por África.</span> — <b>2006年我在非洲旅行了三个月。</b></td></tr>
+    <tr><td>Experiencia</td><td><span class="click" onclick="speak('Fue la mejor experiencia de mi vida.')">Fue la mejor experiencia de mi vida.</span> — <b>那是我人生中最棒的经历。</b></td></tr>
+    <tr><td>Pregunta</td><td><span class="click" onclick="speak('¿Llegaste a Madrid ayer?')">¿Llegaste a Madrid ayer?</span> — <b>你昨天到马德里的吗？</b></td></tr>
+    <tr><td>Respuesta</td><td><span class="click" onclick="speak('No, la semana pasada.')">No, la semana pasada.</span> — <b>不，是上周。</b></td></tr>
+    <tr><td>Pregunta</td><td><span class="click" onclick="speak('¿Cuándo naciste?')">¿Cuándo naciste?</span> — <b>你什么时候出生的？</b></td></tr>
+    <tr><td>Respuesta</td><td><span class="click" onclick="speak('Nací en 1990.')">Nací en 1990.</span> — <b>我1990年出生。</b></td></tr>
+    <tr><td>Opinión</td><td><span class="click" onclick="speak('Yo he visto Ágora, con Rachel Weisz.')">Yo he visto Ágora, con Rachel Weisz.</span> — <b>我看过《城市广场》，蕾切尔·薇姿演的。</b></td></tr>
+    <tr><td>Opinión</td><td><span class="click" onclick="speak('Yo también, es muy buena.')">Yo también, es muy buena.</span> — <b>我也看过，非常好看。</b></td></tr>
+  </table>
+</section>
+
+<section class="page-section" id="vocabulario">
+  <h2 class="vocab-heading">📖 Vocabulario · 词汇表</h2>
+
+  <h3>El cine · 电影</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('la película')">la película</span></td><td class="zh">电影</td></tr>
+      <tr><td><span class="click" onclick="speak('el director')">el director / la directora</span></td><td class="zh">导演</td></tr>
+      <tr><td><span class="click" onclick="speak('el actor')">el actor / la actriz</span></td><td class="zh">男演员 / 女演员</td></tr>
+      <tr><td><span class="click" onclick="speak('el guionista')">el guionista</span></td><td class="zh">编剧</td></tr>
+      <tr><td><span class="click" onclick="speak('el estreno')">el estreno</span></td><td class="zh">首映</td></tr>
+      <tr><td><span class="click" onclick="speak('el premio')">el premio</span></td><td class="zh">奖</td></tr>
+      <tr><td><span class="click" onclick="speak('el éxito')">el éxito</span></td><td class="zh">成功</td></tr>
+      <tr><td><span class="click" onclick="speak('la crítica')">la crítica</span></td><td class="zh">影评</td></tr>
+      <tr><td><span class="click" onclick="speak('el reparto')">el reparto</span></td><td class="zh">演员阵容</td></tr>
+      <tr><td><span class="click" onclick="speak('protagonizar')">protagonizar</span></td><td class="zh">主演</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Biografías · 传记常用语</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('nacer')">nacer</span></td><td class="zh">出生</td></tr>
+      <tr><td><span class="click" onclick="speak('morir')">morir</span></td><td class="zh">去世</td></tr>
+      <tr><td><span class="click" onclick="speak('estudiar')">estudiar</span></td><td class="zh">学习</td></tr>
+      <tr><td><span class="click" onclick="speak('trabajar')">trabajar</span></td><td class="zh">工作</td></tr>
+      <tr><td><span class="click" onclick="speak('casarse')">casarse</span></td><td class="zh">结婚</td></tr>
+      <tr><td><span class="click" onclick="speak('divorciarse')">divorciarse</span></td><td class="zh">离婚</td></tr>
+      <tr><td><span class="click" onclick="speak('hacerse famoso')">hacerse famoso / famosa</span></td><td class="zh">成名</td></tr>
+      <tr><td><span class="click" onclick="speak('empezar a')">empezar a + 原形</span></td><td class="zh">开始做……</td></tr>
+      <tr><td><span class="click" onclick="speak('durante')">durante</span></td><td class="zh">在……期间</td></tr>
+      <tr><td><span class="click" onclick="speak('hasta')">hasta</span></td><td class="zh">直到</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="page-section" id="gramatica">
+  <h2>📚 Gramática · 语法点</h2>
+
+  <div class="grammar-box">
+    <h4>El pretérito indefinido · 简单过去时（规则动词）</h4>
+    <p>用于讲述过去发生、与现在无关的具体事件。规则变位：</p>
+    <table class="vocab-table">
+      <thead><tr><th>代词</th><th>-AR (cambiar)</th><th>-ER (nacer)</th><th>-IR (escribir)</th></tr></thead>
+      <tbody>
+        <tr><td>(yo)</td><td><span class="click" onclick="speak('cambié')">cambié</span></td><td><span class="click" onclick="speak('nací')">nací</span></td><td><span class="click" onclick="speak('escribí')">escribí</span></td></tr>
+        <tr><td>(tú)</td><td><span class="click" onclick="speak('cambiaste')">cambiaste</span></td><td><span class="click" onclick="speak('naciste')">naciste</span></td><td><span class="click" onclick="speak('escribiste')">escribiste</span></td></tr>
+        <tr><td>(él/ella/usted)</td><td><span class="click" onclick="speak('cambió')">cambió</span></td><td><span class="click" onclick="speak('nació')">nació</span></td><td><span class="click" onclick="speak('escribió')">escribió</span></td></tr>
+        <tr><td>(nosotros/-as)</td><td><span class="click" onclick="speak('cambiamos')">cambiamos</span></td><td><span class="click" onclick="speak('nacimos')">nacimos</span></td><td><span class="click" onclick="speak('escribimos')">escribimos</span></td></tr>
+        <tr><td>(ellos/-as/ustedes)</td><td><span class="click" onclick="speak('cambiaron')">cambiaron</span></td><td><span class="click" onclick="speak('nacieron')">nacieron</span></td><td><span class="click" onclick="speak('escribieron')">escribieron</span></td></tr>
+      </tbody>
+    </table>
+    <p>注意：第一人称单数（cambié, nací, escribí）与现在时形式相同。</p>
+  </div>
+
+  <div class="grammar-box">
+    <h4>Verbos irregulares en el indefinido · 过去时不规则动词</h4>
+    <p>词根不规则的动词（结尾均为 -e / -iste / -o / -imos / -isteis / -eron）：</p>
+    <table class="vocab-table">
+      <thead><tr><th>原形</th><th>(yo)</th><th>(él/ella/usted)</th><th>(ellos)</th></tr></thead>
+      <tbody>
+        <tr><td><span class="click" onclick="speak('estar')">estar</span></td><td><span class="click" onclick="speak('estuve')">estuve</span></td><td><span class="click" onclick="speak('estuvo')">estuvo</span></td><td><span class="click" onclick="speak('estuvieron')">estuvieron</span></td></tr>
+        <tr><td><span class="click" onclick="speak('tener')">tener</span></td><td><span class="click" onclick="speak('tuve')">tuve</span></td><td><span class="click" onclick="speak('tuvo')">tuvo</span></td><td><span class="click" onclick="speak('tuvieron')">tuvieron</span></td></tr>
+        <tr><td><span class="click" onclick="speak('hacer')">hacer</span></td><td><span class="click" onclick="speak('hice')">hice</span></td><td><span class="click" onclick="speak('hizo')">hizo</span></td><td><span class="click" onclick="speak('hicieron')">hicieron</span></td></tr>
+        <tr><td><span class="click" onclick="speak('poder')">poder</span></td><td><span class="click" onclick="speak('pude')">pude</span></td><td><span class="click" onclick="speak('pudo')">pudo</span></td><td><span class="click" onclick="speak('pudieron')">pudieron</span></td></tr>
+        <tr><td><span class="click" onclick="speak('querer')">querer</span></td><td><span class="click" onclick="speak('quise')">quise</span></td><td><span class="click" onclick="speak('quiso')">quiso</span></td><td><span class="click" onclick="speak('quisieron')">quisieron</span></td></tr>
+        <tr><td><span class="click" onclick="speak('poner')">poner</span></td><td><span class="click" onclick="speak('puse')">puse</span></td><td><span class="click" onclick="speak('puso')">puso</span></td><td><span class="click" onclick="speak('pusieron')">pusieron</span></td></tr>
+        <tr><td><span class="click" onclick="speak('venir')">venir</span></td><td><span class="click" onclick="speak('vine')">vine</span></td><td><span class="click" onclick="speak('vino')">vino</span></td><td><span class="click" onclick="speak('vinieron')">vinieron</span></td></tr>
+        <tr><td><span class="click" onclick="speak('decir')">decir</span></td><td><span class="click" onclick="speak('dije')">dije</span></td><td><span class="click" onclick="speak('dijo')">dijo</span></td><td><span class="click" onclick="speak('dijeron')">dijeron</span></td></tr>
+      </tbody>
+    </table>
+    <p><b>ser 与 ir 在过去时形式相同：</b><span class="click" onclick="speak('fui')">fui / fuiste / fue / fuimos / fuisteis / fueron</span>（我去/你是/他是/我们是/你们是/他们是；或“去”）。</p>
+  </div>
+
+  <div class="grammar-box">
+    <h4>Empezar a + infinitivo · 开始做某事</h4>
+    <p><span class="click" onclick="speak('Empecé a estudiar español hace dos años.')">Empecé a estudiar español hace dos años.</span>（我两年前开始学西班牙语。）empezar 在过去时也要按 e→ie 变化：empecé / empezaste / empezó…</p>
+  </div>
+
+  <div class="grammar-box">
+    <h4>Marcadores temporales · 过去时的时间标记</h4>
+    <p>常与简单过去时连用：<span class="verb">el martes / el año / el mes / el siglo pasado</span>、<span class="verb">la semana pasada</span>、<span class="verb">hace un año / dos meses</span>、<span class="verb">ayer / anteayer / anoche</span>、<span class="verb">el lunes / en mayo / en 1998 / en Navidad</span>。</p>
+  </div>
+
+  <div class="grammar-box">
+    <h4>Relacionar acontecimientos · 串联事件（ir / irse）</h4>
+    <p><span class="verb">ir</span> 表“去”：<span class="click" onclick="speak('El domingo fui a una exposición.')">El domingo fui a una exposición.</span>（周日我去了一个展览。）</p>
+    <p><span class="verb">irse</span> 表“离开某地”：<span class="click" onclick="speak('Llegó a las dos y, media hora más tarde, se fue.')">Llegó a las dos y, media hora más tarde, se fue.</span>（他两点到的，半小时之后就走了。）</p>
+    <p>串联：<span class="click" onclick="speak('Se casaron en 1997 y tres años después se divorciaron.')">Se casaron en 1997 y tres años después se divorciaron.</span>（他们1997年结婚，三年后离婚。）</p>
+  </div>
+</section>
+
+<section class="page-section" id="cultura">
+  <h2>☕ Café Cultural · 文化角</h2>
+  <div class="cultura-box">
+    <h4>Rostros de la cultura hispana · 西语文化名人</h4>
+    <p>本单元认识多位西语世界名人，可作为传记写作素材：</p>
+    <p>· <span class="click" onclick="speak('Rita Moreno')">Rita Moreno</span>：首位获得奥斯卡奖的西班牙裔女演员（1961，《西区故事》）。<br>
+    · <span class="click" onclick="speak('Rafael Nadal')">Rafael Nadal</span>：西班牙网球名将，2012年追平博格创下七夺法网纪录。<br>
+    · <span class="click" onclick="speak('Pablo Picasso')">Pablo Picasso</span>：西班牙画家，1907年创作首幅立体主义画作《亚维农少女》。<br>
+    · <span class="click" onclick="speak('Gabriela Mistral')">Gabriela Mistral</span>：1945年成为首位获诺贝尔文学奖的西语女作家。<br>
+    · <span class="click" onclick="speak('Alejandro Amenábar')">Alejandro Amenábar</span>：智利出生、在西班牙发展的导演，《睁开你的双眼》《海上钢琴师》（原文为《爱在歇斯底里》）、《城市广场》等均获大奖。<br>
+    · <span class="click" onclick="speak('Ernesto Che Guevara')">Ernesto “Che” Guevara</span>：阿根廷人，1928年生，革命家，生平被拍成电影《摩托车日记》。</p>
+    <p><b>中文对照：</b>这些人物横跨电影、体育、文学、绘画与历史，是西语文化版图中极具代表性的“传记主角”。</p>
+  </div>
+</section>
+
+<div class="nav-buttons">
+  <a href="../index.html">← 返回首页</a>
+  <a class="secondary" href="#top">↑ 顶部</a>
+  <a href="A2_u03.html">下一单元 →</a>
+</div>
+
+<footer class="site-footer">
+  <p>Aula Internacional 2 (A2) · 本页内容依据原版教材提取并配中文翻译 · 发音使用浏览器西班牙语语音</p>
+  <p>© 西班牙语自学站 · 仅供学习使用</p>
+</footer>
+<script src="../js/aula-audio.js"></script>
+</body>
+</html>

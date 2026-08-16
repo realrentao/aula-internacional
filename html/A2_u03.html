@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unidad 3 · Hogar, dulce hogar (A2) — Aula Internacional</title>
+<link rel="stylesheet" href="../css/aula-styles.css">
+</head>
+<body>
+<div class="scroll-progress"></div>
+<nav class="top-nav">
+  <div class="logo"><span class="flag">🇪🇸</span> Aula Internacional · 西语自学站</div>
+  <nav>
+    <a href="../index.html">首页</a>
+    <a href="#dialogos">对话</a>
+    <a href="#vocabulario">词汇</a>
+    <a href="#gramatica">语法</a>
+    <a href="#cultura">文化</a>
+    <a href="#" onclick="toggleDark()">🌓</a>
+  </nav>
+</nav>
+
+<header class="unit-hero">
+  <span class="badge">Nivel A2</span>
+  <h1>Unidad 3 · Hogar, dulce hogar</h1>
+  <div class="sub">Amueblar una casa y diseñar una vivienda · 布置住房并设计居所</div>
+  <div class="tags">
+    <span class="tag">交际：表达喜好与偏好、描述房屋、比较、表认同、定位物品</span>
+    <span class="tag">语法：比较级、方位介词、物主代词、ser/estar、gustar/encantar/preferir</span>
+    <span class="tag">词汇：住宅类型、房屋各部位、形状与材质</span>
+  </div>
+</header>
+
+<section class="page-section" id="dialogos">
+  <h2>💬 Diálogos · 核心对话</h2>
+  <p>本单元围绕“家与住宅”展开：看租房广告、聊室内设计、描述房间布局并比较住所。点击任意西语句子可听发音。</p>
+  <table class="dialog-table">
+    <tr><td>Preferencia</td><td><span class="click" onclick="speak('A mí la que más me gusta es el chalé en Empuriabrava, porque es muy grande.')">A mí la que más me gusta es el chalé en Empuriabrava, porque es muy grande.</span> — <b>我最喜欢的是恩波达布拉瓦的那栋别墅，因为它很大。</b></td></tr>
+    <tr><td>Preferencia</td><td><span class="click" onclick="speak('Pues yo prefiero el estudio porque es más barato.')">Pues yo prefiero el estudio porque es más barato.</span> — <b>我倒更喜欢单身公寓，因为更便宜。</b></td></tr>
+    <tr><td>Opinión</td><td><span class="click" onclick="speak('A mí me gusta mucho. Es muy moderno.')">A mí me gusta mucho. Es muy moderno.</span> — <b>我很喜欢。很现代。</b></td></tr>
+    <tr><td>Opinión</td><td><span class="click" onclick="speak('A mí no, me parece muy frío.')">A mí no, me parece muy frío.</span> — <b>我可不觉得，我觉得太冷清了。</b></td></tr>
+    <tr><td>Comparación</td><td><span class="click" onclick="speak('El mío es más grande, tiene unos 70 metros cuadrados.')">El mío es más grande, tiene unos 70 metros cuadrados.</span> — <b>我的更大些，大约70平方米。</b></td></tr>
+    <tr><td>Comparación</td><td><span class="click" onclick="speak('¿Ah sí? Yo también tengo terraza, pero la mía es un poco más pequeña.')">¿Ah sí? Yo también tengo terraza, pero la mía es un poco más pequeña.</span> — <b>哦是吗？我也有露台，不过我的小一点。</b></td></tr>
+    <tr><td>Ubicación</td><td><span class="click" onclick="speak('La lámpara está al lado de la televisión.')">La lámpara está al lado de la televisión.</span> — <b>灯在电视旁边。</b></td></tr>
+    <tr><td>Ubicación</td><td><span class="click" onclick="speak('Hay un cuadro en la pared, detrás de la televisión.')">Hay un cuadro en la pared, detrás de la televisión.</span> — <b>电视后面的墙上挂着一幅画。</b></td></tr>
+  </table>
+</section>
+
+<section class="page-section" id="vocabulario">
+  <h2 class="vocab-heading">📖 Vocabulario · 词汇表</h2>
+
+  <h3>Tipos de vivienda · 住宅类型</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('el chalé')">el chalé</span></td><td class="zh">别墅</td></tr>
+      <tr><td><span class="click" onclick="speak('la casa de campo')">la casa de campo</span></td><td class="zh">乡间住宅</td></tr>
+      <tr><td><span class="click" onclick="speak('el piso')">el piso</span></td><td class="zh">公寓（楼层住宅）</td></tr>
+      <tr><td><span class="click" onclick="speak('la casa adosada')">la casa adosada</span></td><td class="zh">联排住宅</td></tr>
+      <tr><td><span class="click" onclick="speak('el estudio')">el estudio</span></td><td class="zh">单身公寓 / 工作室</td></tr>
+      <tr><td><span class="click" onclick="speak('el ático')">el ático</span></td><td class="zh">顶楼公寓</td></tr>
+      <tr><td><span class="click" onclick="speak('el apartamento')">el apartamento</span></td><td class="zh">公寓</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Partes de la vivienda · 房屋各部位</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('el recibidor')">el recibidor</span></td><td class="zh">门厅</td></tr>
+      <tr><td><span class="click" onclick="speak('el salón')">el salón</span></td><td class="zh">客厅</td></tr>
+      <tr><td><span class="click" onclick="speak('la cocina')">la cocina</span></td><td class="zh">厨房</td></tr>
+      <tr><td><span class="click" onclick="speak('el dormitorio')">el dormitorio</span></td><td class="zh">卧室</td></tr>
+      <tr><td><span class="click" onclick="speak('el baño')">el baño</span></td><td class="zh">浴室</td></tr>
+      <tr><td><span class="click" onclick="speak('la terraza')">la terraza</span></td><td class="zh">露台</td></tr>
+      <tr><td><span class="click" onclick="speak('el balcón')">el balcón</span></td><td class="zh">阳台</td></tr>
+      <tr><td><span class="click" onclick="speak('el jardín')">el jardín</span></td><td class="zh">花园</td></tr>
+      <tr><td><span class="click" onclick="speak('el garaje')">el garaje</span></td><td class="zh">车库</td></tr>
+      <tr><td><span class="click" onclick="speak('el trastero')">el trastero</span></td><td class="zh">储藏室</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Materiales y estilos · 材质与风格</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('de madera')">de madera</span></td><td class="zh">木制的</td></tr>
+      <tr><td><span class="click" onclick="speak('de piedra')">de piedra</span></td><td class="zh">石头的</td></tr>
+      <tr><td><span class="click" onclick="speak('de metal')">de metal</span></td><td class="zh">金属的</td></tr>
+      <tr><td><span class="click" onclick="speak('de cristal')">de cristal</span></td><td class="zh">玻璃的</td></tr>
+      <tr><td><span class="click" onclick="speak('acogedor')">acogedor / acogedora</span></td><td class="zh">温馨的</td></tr>
+      <tr><td><span class="click" onclick="speak('luminoso')">luminoso / luminosa</span></td><td class="zh">明亮的</td></tr>
+      <tr><td><span class="click" onclick="speak('oscuro')">oscuro / oscura</span></td><td class="zh">昏暗的</td></tr>
+      <tr><td><span class="click" onclick="speak('clásico')">clásico / clásica</span></td><td class="zh">经典的</td></tr>
+      <tr><td><span class="click" onclick="speak('moderno')">moderno / moderna</span></td><td class="zh">现代的</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="page-section" id="gramatica">
+  <h2>📚 Gramática · 语法点</h2>
+
+  <div class="grammar-box">
+    <h4>Comparativos · 比较级</h4>
+    <p>比较形容词、名词或动词：</p>
+    <table class="vocab-table">
+      <thead><tr><th>类型</th><th>结构</th><th>例句</th><th>中文</th></tr></thead>
+      <tbody>
+        <tr><td>较高</td><td>más + 形/名/动 + que</td><td><span class="click" onclick="speak('Madrid es más grande que Barcelona.')">Madrid es más grande que Barcelona.</span></td><td class="zh">马德里比巴塞罗那大。</td></tr>
+        <tr><td>较低</td><td>menos + 形/名/动 + que</td><td><span class="click" onclick="speak('Esta casa es menos luminosa que la otra.')">Esta casa es menos luminosa que la otra.</span></td><td class="zh">这栋房子没另一栋明亮。</td></tr>
+        <tr><td>等同</td><td>tan + 形 + como</td><td><span class="click" onclick="speak('Aquí las casas son tan caras como en mi ciudad.')">Aquí las casas son tan caras como en mi ciudad.</span></td><td class="zh">这儿房子跟我家乡一样贵。</td></tr>
+        <tr><td>等同（名）</td><td>tanto/a/os/as + 名 + como</td><td><span class="click" onclick="speak('Tiene tanta luz como la otra.')">Tiene tanta luz como la otra.</span></td><td class="zh">它和另一栋一样透亮。</td></tr>
+      </tbody>
+    </table>
+    <p>特殊形式：<span class="verb">más bueno → mejor</span>（更好），<span class="verb">más malo → peor</span>（更差）。</p>
+  </div>
+
+  <div class="grammar-box">
+    <h4>Ubicar objetos · 方位介词</h4>
+    <p>描述物品位置：<span class="verb">debajo (de)</span> 在……下、<span class="verb">encima (de)</span> 在……上、<span class="verb">detrás (de)</span> 在……后、<span class="verb">delante (de)</span> 在……前、<span class="verb">entre</span> 在……之间、<span class="verb">al lado (de)</span> 在……旁、<span class="verb">a la derecha / izquierda (de)</span> 在……右/左边、<span class="verb">en el centro (de)</span> 在……中央。注意：<span class="verb">de + el = del</span>。</p>
+  </div>
+
+  <div class="grammar-box">
+    <h4>Pronombres posesivos tónicos · 重读物主代词</h4>
+    <p>用于强调“我的/你的/他的（那个）”：<span class="verb">el mío / la mía</span>、<span class="verb">el tuyo / la tuya</span>、<span class="verb">el suyo / la suya</span>（及其复数）。例：<span class="click" onclick="speak('Mi terraza es pequeña, pero la tuya es más grande.')">Mi terraza es pequeña, pero la tuya es más grande.</span>（我的露台小，但你的大。）</p>
+  </div>
+
+  <div class="grammar-box">
+    <h4>Gustar, encantar y preferir · 喜欢、非常喜欢、更喜欢</h4>
+    <p>与格代词 + gustar/encantar（物作主语）：<span class="click" onclick="speak('Me gusta el sofá.')">Me gusta el sofá.</span>（我喜欢这沙发。）/ <span class="click" onclick="speak('Me encanta la cocina.')">Me encanta la cocina.</span>（我特别喜欢厨房。）<span class="verb">preferir</span>（e→ie）：<span class="click" onclick="speak('Yo prefiero el estudio.')">Yo prefiero el estudio.</span>（我更喜欢单身公寓。）</p>
+  </div>
+
+  <div class="grammar-box">
+    <h4>Ser y estar · 描述房屋</h4>
+    <p>用 <span class="verb">ser</span> 作客观描述/定性（El chalé es moderno.）；用 <span class="verb">estar</span> 说明临时性状态或位置（La casa está en el centro. / Está amueblado.）。</p>
+  </div>
+</section>
+
+<section class="page-section" id="cultura">
+  <h2>☕ Café Cultural · 文化角</h2>
+  <div class="cultura-box">
+    <h4>Casas con historia · 有故事的名人家居</h4>
+    <p>有些名人住过的房子会成为历史名胜，参观它们能让人想象这些人的日常生活。本单元介绍三处西语艺术家的故居博物馆：</p>
+    <p>· <span class="click" onclick="speak('La casa museo de Pablo Neruda')">La casa museo de Pablo Neruda</span>：聂鲁达在智利最爱的家，位于伊斯拉内格拉（Isla Negra），面朝大海、形如船屋，1937年购自一位西班牙水手。<br>
+    · <span class="click" onclick="speak('La casa azul')">La casa azul</span>：墨西哥画家弗里达·卡罗（Frida Kahlo）出生、生活并去世的蓝屋，在墨西哥城科约阿坎，现为墨西哥参观人数最多的博物馆之一。<br>
+    · <span class="click" onclick="speak('La casa museo de Manuel de Falla')">La casa museo de Manuel de Falla</span>：作曲家法雅1922–1939年居住的格拉纳达“卡门”式白屋，有蓝窗与花园。</p>
+    <p>西语国家还有许多同类故居博物馆，如达利故居（卡达克斯）、塞万提斯故居（阿尔卡拉）、加德尔故居（布宜诺斯艾利斯）等。</p>
+    <p><b>中文对照：</b>“casa museo（故居博物馆）”是西语文化游中常见概念——把名人旧居保留并对外开放，让访客走近其生活空间。</p>
+  </div>
+</section>
+
+<div class="nav-buttons">
+  <a href="../index.html">← 返回首页</a>
+  <a class="secondary" href="#top">↑ 顶部</a>
+  <a href="A2_u04.html">下一单元 →</a>
+</div>
+
+<footer class="site-footer">
+  <p>Aula Internacional 2 (A2) · 本页内容依据原版教材提取并配中文翻译 · 发音使用浏览器西班牙语语音</p>
+  <p>© 西班牙语自学站 · 仅供学习使用</p>
+</footer>
+<script src="../js/aula-audio.js"></script>
+</body>
+</html>

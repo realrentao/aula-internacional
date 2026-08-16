@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unidad 8 · El turista accidental (B1) — Aula Internacional</title>
+<link rel="stylesheet" href="../css/aula-styles.css">
+</head>
+<body>
+<div class="scroll-progress"></div>
+<nav class="top-nav">
+  <div class="logo"><span class="flag">🇪🇸</span> Aula Internacional · 西语自学站</div>
+  <nav>
+    <a href="../index.html">首页</a>
+    <a href="#dialogos">对话</a>
+    <a href="#vocabulario">词汇</a>
+    <a href="#gramatica">语法</a>
+    <a href="#cultura">文化</a>
+    <a href="#" onclick="toggleDark()">🌓</a>
+  </nav>
+</nav>
+
+<header class="unit-hero">
+  <span class="badge">Nivel B1</span>
+  <h1>Unidad 8 · El turista accidental</h1>
+  <div class="sub">La voz pasiva y los viajes · 被动语态与旅行</div>
+  <div class="tags">
+    <span class="tag">交际：旅行·意外·描述</span>
+    <span class="tag">语法：pasiva refleja (se) · ser + participio</span>
+    <span class="tag">词汇：交通·住宿·意外</span>
+  </div>
+</header>
+
+<section class="page-section" id="dialogos">
+  <h2>💬 Diálogos · 核心对话</h2>
+  <p>一位游客在酒店前台报告行李丢失与一起小意外。点击任意西语句子可听发音。</p>
+  <table class="dialog-table">
+    <tr><td>Recepcionista</td><td><span class="click" onclick="speak('Buenos días, ¿en qué puedo ayudarle?')">Buenos días, ¿en qué puedo ayudarle?</span> — <b>早上好，有什么可以帮您？</b></td></tr>
+    <tr><td>Turista</td><td><span class="click" onclick="speak('Mi maleta no ha llegado y se ha perdido el equipaje.')">Mi maleta no ha llegado y se ha perdido el equipaje.</span> — <b>我的箱子没到，行李丢了。</b></td></tr>
+    <tr><td>Recepcionista</td><td><span class="click" onclick="speak('No se preocupe, se buscará en el aeropuerto de inmediato.')">No se preocupe, se buscará en el aeropuerto de inmediato.</span> — <b>别担心，会马上在机场查找。</b></td></tr>
+    <tr><td>Turista</td><td><span class="click" onclick="speak('Además, me caí en la escalera y me torcí el tobillo.')">Además, me caí en la escalera y me torcí el tobillo.</span> — <b>而且我在楼梯上摔了，崴了脚踝。</b></td></tr>
+    <tr><td>Recepcionista</td><td><span class="click" onclick="speak('Vaya, lo siento. ¿Fue atendido por un médico?')">Vaya, lo siento. ¿Fue atendido por un médico?</span> — <b>哎呀，抱歉。有医生给您处理吗？</b></td></tr>
+    <tr><td>Turista</td><td><span class="click" onclick="speak('Sí, fui atendido en urgencias y me vendaron el pie.')">Sí, fui atendido en urgencias y me vendaron el pie.</span> — <b>有，急诊给我处理了，脚也包扎了。</b></td></tr>
+    <tr><td>Recepcionista</td><td><span class="click" onclick="speak('Aquí se habla español e inglés, así que quédese tranquilo.')">Aquí se habla español e inglés, así que quédese tranquilo.</span> — <b>这里说西班牙语和英语，您放心。</b></td></tr>
+    <tr><td>Turista</td><td><span class="click" onclick="speak('Gracias. Espero que mañana se encuentre mi maleta.')">Gracias. Espero que mañana se encuentre mi maleta.</span> — <b>谢谢。希望明天能找到我的箱子。</b></td></tr>
+  </table>
+</section>
+
+<section class="page-section" id="vocabulario">
+  <h2 class="vocab-heading">📖 Vocabulario · 词汇表</h2>
+
+  <h3>Viajes y transporte · 旅行与交通</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('el equipaje')">el equipaje</span></td><td class="zh">行李</td></tr>
+      <tr><td><span class="click" onclick="speak('la maleta')">la maleta</span></td><td class="zh">箱子</td></tr>
+      <tr><td><span class="click" onclick="speak('el vuelo')">el vuelo</span></td><td class="zh">航班</td></tr>
+      <tr><td><span class="click" onclick="speak('el aeropuerto')">el aeropuerto</span></td><td class="zh">机场</td></tr>
+      <tr><td><span class="click" onclick="speak('el hotel')">el hotel</span></td><td class="zh">酒店</td></tr>
+      <tr><td><span class="click" onclick="speak('la recepción')">la recepción</span></td><td class="zh">前台</td></tr>
+      <tr><td><span class="click" onclick="speak('la reserva')">la reserva</span></td><td class="zh">预订</td></tr>
+      <tr><td><span class="click" onclick="speak('el billete')">el billete</span></td><td class="zh">票</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Accidentes y salud · 意外与健康</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('caerse')">caerse</span></td><td class="zh">摔倒</td></tr>
+      <tr><td><span class="click" onclick="speak('torcerse')">torcerse (el tobillo)</span></td><td class="zh">崴（脚踝）</td></tr>
+      <tr><td><span class="click" onclick="speak('las urgencias')">las urgencias</span></td><td class="zh">急诊</td></tr>
+      <tr><td><span class="click" onclick="speak('vendar')">vendar</span></td><td class="zh">包扎</td></tr>
+      <tr><td><span class="click" onclick="speak('el tobillo')">el tobillo</span></td><td class="zh">脚踝</td></tr>
+      <tr><td><span class="click" onclick="speak('el médico')">el médico / la médica</span></td><td class="zh">医生</td></tr>
+    </tbody>
+  </table>
+
+  <h3>La pasiva impersonal · 无人称被动词</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('se habla')">se habla</span></td><td class="zh">讲（某种语言）</td></tr>
+      <tr><td><span class="click" onclick="speak('se vende')">se vende</span></td><td class="zh">出售</td></tr>
+      <tr><td><span class="click" onclick="speak('se prohibe')">se prohíbe</span></td><td class="zh">禁止</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="page-section" id="gramatica">
+  <h2>📚 Gramática · 语法点</h2>
+
+  <div class="grammar-box">
+    <h4>Pasiva refleja (se + 3ª persona) · 无人称被动（se 被动）</h4>
+    <p>用 <span class="verb">se + 动词第三人称单/复数</span> 表达「（人们）……」，不强调施事者，相当于中文「被/受/可」。数随宾语变化。</p>
+    <table class="vocab-table">
+      <thead><tr><th>例句</th><th>中文</th></tr></thead>
+      <tbody>
+        <tr><td><span class="click" onclick="speak('Aquí se habla español.')">Aquí se habla español.</span></td><td class="zh">这里说西班牙语。</td></tr>
+        <tr><td><span class="click" onclick="speak('Se buscará su maleta.')">Se buscará su maleta.</span></td><td class="zh">会有人找您的箱子。</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="grammar-box">
+    <h4>Ser + participio (pasiva literaria) · 被动语态</h4>
+    <p>强调动作承受者时用 <span class="verb">ser 的变位 + 过去分词（与主语性数一致）</span>：</p>
+    <table class="vocab-table">
+      <thead><tr><th>例句</th><th>中文</th></tr></thead>
+      <tbody>
+        <tr><td><span class="click" onclick="speak('Fui atendido por un médico.')">Fui atendido por un médico.</span></td><td class="zh">我受到了医生诊治。</td></tr>
+        <tr><td><span class="click" onclick="speak('El puente fue construido en 1900.')">El puente fue construido en 1900.</span></td><td class="zh">桥建于1900年。</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="grammar-box">
+    <h4>Relatar sucesos · 叙述事件</h4>
+    <p>用过去时叙述旅行意外：<span class="verb">se perdió, se cayó, fue atendido</span>。注意代词 <span class="verb">se</span> 在「se + 第三人称」结构中表示被动或自复，需结合语境判断。</p>
+  </div>
+</section>
+
+<section class="page-section" id="cultura">
+  <h2>☕ Café Cultural · 文化角</h2>
+  <div class="cultura-box">
+    <h4>El Camino de Santiago y el turismo · 圣地亚哥之路与旅游</h4>
+    <p>西班牙是世界级旅游目的地，除了阳光海滩，还有著名的 <span class="click" onclick="speak('el Camino de Santiago')">el Camino de Santiago</span>（圣地亚哥朝圣之路）。游客意外常由 <span class="click" onclick="speak('la sanidad pública')">la sanidad pública</span>（公立医疗）急诊处理，外国游客多持欧洲医保卡或旅行保险。</p>
+    <p><b>中文对照：</b>在西语国家旅行，酒店前台（la recepción）通常英西双语，遇到意外先去 urgencias（急诊），流程与国内类似但更强调预约制。</p>
+  </div>
+</section>
+
+<div class="nav-buttons">
+  <a href="../index.html">← 返回首页</a>
+  <a class="secondary" href="#top">↑ 顶部</a>
+  <a href="B1_u09.html">下一单元 →</a>
+</div>
+
+<footer class="site-footer">
+  <p>Aula Internacional 3 (B1) · 本页内容依据原版教材提取并配中文翻译 · 发音使用浏览器西班牙语语音</p>
+  <p>© 西班牙语自学站 · 仅供学习使用</p>
+</footer>
+<script src="../js/aula-audio.js"></script>
+</body>
+</html>

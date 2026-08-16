@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unidad 2 · Mañana (B1) — Aula Internacional</title>
+<link rel="stylesheet" href="../css/aula-styles.css">
+</head>
+<body>
+<div class="scroll-progress"></div>
+<nav class="top-nav">
+  <div class="logo"><span class="flag">🇪🇸</span> Aula Internacional · 西语自学站</div>
+  <nav>
+    <a href="../index.html">首页</a>
+    <a href="#dialogos">对话</a>
+    <a href="#vocabulario">词汇</a>
+    <a href="#gramatica">语法</a>
+    <a href="#cultura">文化</a>
+    <a href="#" onclick="toggleDark()">🌓</a>
+  </nav>
+</nav>
+
+<header class="unit-hero">
+  <span class="badge">Nivel B1</span>
+  <h1>Unidad 2 · Mañana</h1>
+  <div class="sub">Hablar del futuro: planes y predicciones · 谈论未来：计划与预测</div>
+  <div class="tags">
+    <span class="tag">交际：计划·预测·住房</span>
+    <span class="tag">语法：ir a + inf. / futuro simple</span>
+    <span class="tag">词汇：住房·家具·天气</span>
+  </div>
+</header>
+
+<section class="page-section" id="dialogos">
+  <h2>💬 Diálogos · 核心对话</h2>
+  <p>两位朋友聊起近期的搬家计划与对未来的打算。点击任意西语句子可听发音。</p>
+  <table class="dialog-table">
+    <tr><td>Sara</td><td><span class="click" onclick="speak('¿Qué vas a hacer el finde?')">¿Qué vas a hacer el finde?</span> — <b>这周末你打算干嘛？</b></td></tr>
+    <tr><td>Pablo</td><td><span class="click" onclick="speak('Voy a mudarme a un piso nuevo en el centro.')">Voy a mudarme a un piso nuevo en el centro.</span> — <b>我要搬进城里的一套新公寓。</b></td></tr>
+    <tr><td>Sara</td><td><span class="click" onclick="speak('¡Qué bien! ¿Es de alquiler o lo has comprado?')">¡Qué bien! ¿Es de alquiler o lo has comprado?</span> — <b>太好了！是租的还是买下的？</b></td></tr>
+    <tr><td>Pablo</td><td><span class="click" onclick="speak('De alquiler. La hipoteca es muy cara ahora.')">De alquiler. La hipoteca es muy cara ahora.</span> — <b>租的。现在房贷太贵了。</b></td></tr>
+    <tr><td>Sara</td><td><span class="click" onclick="speak('¿Y el barrio tiene buen transporte?')">¿Y el barrio tiene buen transporte?</span> — <b>那片区交通方便吗？</b></td></tr>
+    <tr><td>Pablo</td><td><span class="click" onclick="speak('Sí, está cerca del metro y tiene mucho encanto.')">Sí, está cerca del metro y tiene mucho encanto.</span> — <b>方便，离地铁近，而且很有味道。</b></td></tr>
+    <tr><td>Sara</td><td><span class="click" onclick="speak('El año que viene quizá me vaya a vivir fuera.')">El año que viene quizá me vaya a vivir fuera.</span> — <b>明年我也许会去国外住。</b></td></tr>
+    <tr><td>Pablo</td><td><span class="click" onclick="speak('¿Adónde?')">¿Adónde?</span> — <b>去哪儿？</b></td></tr>
+    <tr><td>Sara</td><td><span class="click" onclick="speak('A Buenos Aires. Allí conoceré a mi hermana.')">A Buenos Aires. Allí conoceré a mi hermana.</span> — <b>去布宜诺斯艾利斯，我妹妹在那儿，我会见到她。</b></td></tr>
+    <tr><td>Pablo</td><td><span class="click" onclick="speak('¡Qué suerte! Cuando esté amueblado, nos invitas a una fiesta.')">¡Qué suerte! Cuando esté amueblado, nos invitas a una fiesta.</span> — <b>真有福气！等家具配齐了，请我们开个派对。</b></td></tr>
+  </table>
+</section>
+
+<section class="page-section" id="vocabulario">
+  <h2 class="vocab-heading">📖 Vocabulario · 词汇表</h2>
+
+  <h3>La vivienda · 住房</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('el piso')">el piso</span></td><td class="zh">公寓（楼层住宅）</td></tr>
+      <tr><td><span class="click" onclick="speak('el apartamento')">el apartamento</span></td><td class="zh">公寓</td></tr>
+      <tr><td><span class="click" onclick="speak('el alquiler')">el alquiler</span></td><td class="zh">租金；出租</td></tr>
+      <tr><td><span class="click" onclick="speak('la hipoteca')">la hipoteca</span></td><td class="zh">房贷</td></tr>
+      <tr><td><span class="click" onclick="speak('el vecino')">el vecino / la vecina</span></td><td class="zh">邻居（男/女）</td></tr>
+      <tr><td><span class="click" onclick="speak('el barrio')">el barrio</span></td><td class="zh">街区；社区</td></tr>
+      <tr><td><span class="click" onclick="speak('amueblado')">amueblado / amueblada</span></td><td class="zh">带家具的</td></tr>
+      <tr><td><span class="click" onclick="speak('el edificio')">el edificio</span></td><td class="zh">楼房</td></tr>
+      <tr><td><span class="click" onclick="speak('la comunidad de vecinos')">la comunidad de vecinos</span></td><td class="zh">业主委员会</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Estancias y muebles · 房间与家具</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('el salón')">el salón</span></td><td class="zh">客厅</td></tr>
+      <tr><td><span class="click" onclick="speak('la cocina')">la cocina</span></td><td class="zh">厨房</td></tr>
+      <tr><td><span class="click" onclick="speak('el dormitorio')">el dormitorio</span></td><td class="zh">卧室</td></tr>
+      <tr><td><span class="click" onclick="speak('el baño')">el baño</span></td><td class="zh">浴室</td></tr>
+      <tr><td><span class="click" onclick="speak('el armario')">el armario</span></td><td class="zh">衣柜</td></tr>
+      <tr><td><span class="click" onclick="speak('la estantería')">la estantería</span></td><td class="zh">书架</td></tr>
+      <tr><td><span class="click" onclick="speak('el sofá')">el sofá</span></td><td class="zh">沙发</td></tr>
+      <tr><td><span class="click" onclick="speak('la nevera')">la nevera</span></td><td class="zh">冰箱</td></tr>
+      <tr><td><span class="click" onclick="speak('el horno')">el horno</span></td><td class="zh">烤箱</td></tr>
+    </tbody>
+  </table>
+
+  <h3>El tiempo y el futuro · 天气与时间表达</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('mañana')">mañana</span></td><td class="zh">明天</td></tr>
+      <tr><td><span class="click" onclick="speak('el próximo año')">el próximo año</span></td><td class="zh">明年</td></tr>
+      <tr><td><span class="click" onclick="speak('dentro de')">dentro de + 时间</span></td><td class="zh">……之后</td></tr>
+      <tr><td><span class="click" onclick="speak('el lunes que viene')">el lunes que viene</span></td><td class="zh">下周一</td></tr>
+      <tr><td><span class="click" onclick="speak('llover')">llover</span></td><td class="zh">下雨</td></tr>
+      <tr><td><span class="click" onclick="speak('hacer sol')">hacer sol</span></td><td class="zh">出太阳</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="page-section" id="gramatica">
+  <h2>📚 Gramática · 语法点</h2>
+
+  <div class="grammar-box">
+    <h4>ir a + infinitivo · 打算 / 近期计划</h4>
+    <p>用 <span class="verb">ir a + 原形</span> 表示已经决定、即将进行的计划或意图，相当于中文「打算／要去……」。</p>
+    <table class="vocab-table">
+      <thead><tr><th>主语</th><th>变位</th><th>例句</th></tr></thead>
+      <tbody>
+        <tr><td>yo</td><td><span class="click" onclick="speak('voy a')">voy a + inf.</span></td><td><span class="click" onclick="speak('Voy a mudarme.')">Voy a mudarme.</span></td></tr>
+        <tr><td>tú</td><td><span class="click" onclick="speak('vas a')">vas a + inf.</span></td><td><span class="click" onclick="speak('¿Qué vas a hacer?')">¿Qué vas a hacer?</span></td></tr>
+        <tr><td>él/ella</td><td><span class="click" onclick="speak('va a')">va a + inf.</span></td><td><span class="click" onclick="speak('Va a llover.')">Va a llover.</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="grammar-box">
+    <h4>El futuro simple · 简单将来时</h4>
+    <p>规则动词在原形后加词尾（<span class="verb">-é, -ás, -á, -emos, -éis, -án</span>）。常用于：预测、承诺、正式语境。</p>
+    <table class="vocab-table">
+      <thead><tr><th>规则</th><th>示例</th><th>中文</th></tr></thead>
+      <tbody>
+        <tr><td>trabajar → trabajaré</td><td><span class="click" onclick="speak('Trabajaré en Buenos Aires.')">Trabajaré en Buenos Aires.</span></td><td class="zh">我将在布宜诺斯艾利斯工作。</td></tr>
+        <tr><td>comer → comerá</td><td><span class="click" onclick="speak('Comerá con nosotros.')">Comerá con nosotros.</span></td><td class="zh">他会和我们一起吃饭。</td></tr>
+        <tr><td>vivir → vivirán</td><td><span class="click" onclick="speak('Vivirán en el extranjero.')">Vivirán en el extranjero.</span></td><td class="zh">他们将住在国外。</td></tr>
+      </tbody>
+    </table>
+    <p><b>不规则词根：</b> hacer→<span class="verb">har-</span>, poder→<span class="verb">podr-</span>, venir→<span class="verb">vendr-</span>, decir→<span class="verb">dir-</span>, tener→<span class="verb">tendr-</span>, salir→<span class="verb">saldr-</span>, poner→<span class="verb">pondr-</span>, saber→<span class="verb">sabr-</span>, querer→<span class="verb">querr-</span>。</p>
+  </div>
+
+  <div class="grammar-box">
+    <h4>Usos del futuro · 将来时的用法</h4>
+    <p>① <b>预测</b>：<span class="click" onclick="speak('Hará frío mañana.')">Hará frío mañana.</span>（明天会冷。）② <b>承诺</b>：<span class="click" onclick="speak('Te ayudaré.')">Te ayudaré.</span>（我会帮你的。）③ 与 <span class="verb">ir a + inf.</span> 相比，futuro 更正式、更侧重客观预测。</p>
+  </div>
+</section>
+
+<section class="page-section" id="cultura">
+  <h2>☕ Café Cultural · 文化角</h2>
+  <div class="cultura-box">
+    <h4>Vivir de alquiler o comprar · 租房还是买房</h4>
+    <p>在西班牙，许多年轻人先 <span class="click" onclick="speak('alquilar un piso')">alquilar un piso</span>（租公寓），因为 <span class="click" onclick="speak('la hipoteca')">la hipoteca</span>（房贷）门槛高、首付多。市中心老城的 <span class="click" onclick="speak('piso')">piso</span> 往往小巧但 <span class="click" onclick="speak('con mucho encanto')">con mucho encanto</span>（很有韵味），靠近地铁最抢手。</p>
+    <p><b>中文对照：</b>和国内相似，大城市房价高企，年轻一代常先在市中心租房，攒够首付再考虑买房。</p>
+  </div>
+</section>
+
+<div class="nav-buttons">
+  <a href="../index.html">← 返回首页</a>
+  <a class="secondary" href="#top">↑ 顶部</a>
+  <a href="B1_u03.html">下一单元 →</a>
+</div>
+
+<footer class="site-footer">
+  <p>Aula Internacional 3 (B1) · 本页内容依据原版教材提取并配中文翻译 · 发音使用浏览器西班牙语语音</p>
+  <p>© 西班牙语自学站 · 仅供学习使用</p>
+</footer>
+<script src="../js/aula-audio.js"></script>
+</body>
+</html>

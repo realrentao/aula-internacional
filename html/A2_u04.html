@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unidad 4 · ¿Cómo va todo? (A2) — Aula Internacional</title>
+<link rel="stylesheet" href="../css/aula-styles.css">
+</head>
+<body>
+<div class="scroll-progress"></div>
+<nav class="top-nav">
+  <div class="logo"><span class="flag">🇪🇸</span> Aula Internacional · 西语自学站</div>
+  <nav>
+    <a href="../index.html">首页</a>
+    <a href="#dialogos">对话</a>
+    <a href="#vocabulario">词汇</a>
+    <a href="#gramatica">语法</a>
+    <a href="#cultura">文化</a>
+    <a href="#" onclick="toggleDark()">🌓</a>
+  </nav>
+</nav>
+
+<header class="unit-hero">
+  <span class="badge">Nivel A2</span>
+  <h1>Unidad 4 · ¿Cómo va todo?</h1>
+  <div class="sub">Simular situaciones de contacto social · 模拟不同正式程度的社交场合</div>
+  <div class="tags">
+    <span class="tag">交际：问候与告别、请求与借物、请求许可、致歉与解释</span>
+    <span class="tag">语法：副动词（gerundio）、estar + gerundio、条件式</span>
+    <span class="tag">词汇：问候告别语、礼貌动词、dar/dejar/prestar</span>
+  </div>
+</header>
+
+<section class="page-section" id="dialogos">
+  <h2>💬 Diálogos · 核心对话</h2>
+  <p>本单元聚焦社交场合的礼貌用语：在酒吧点单、街头偶遇、请求帮助与婉拒。点击任意西语句子可听发音。</p>
+  <table class="dialog-table">
+    <tr><td>En un bar</td><td><span class="click" onclick="speak('Hola, ¿qué les pongo?')">Hola, ¿qué les pongo?</span> — <b>您好，要点什么？</b></td></tr>
+    <tr><td>Pedido</td><td><span class="click" onclick="speak('Una caña, por favor.')">Una caña, por favor.</span> / <span class="click" onclick="speak('Para mí un agua con gas.')">Para mí un agua con gas.</span> — <b>给我一杯生啤。/ 我要带气的水。</b></td></tr>
+    <tr><td>Despedida</td><td><span class="click" onclick="speak('¡Hasta luego!')">¡Hasta luego!</span> — <b>回头见！</b></td></tr>
+    <tr><td>Despedida</td><td><span class="click" onclick="speak('¡Nos vemos, adiós!')">¡Nos vemos, adiós!</span> — <b>再见啦，拜拜！</b></td></tr>
+    <tr><td>Saludo</td><td><span class="click" onclick="speak('Hombre, Manuel, ¡cuánto tiempo sin verlo! ¿Cómo va todo?')">Hombre, Manuel, ¡cuánto tiempo sin verlo! ¿Cómo va todo?</span> — <b>哎呀曼努埃尔，好久不见！一切都好吗？</b></td></tr>
+    <tr><td>Respuesta</td><td><span class="click" onclick="speak('Bien, bien, no me puedo quejar. ¿Y usted cómo está?')">Bien, bien, no me puedo quejar. ¿Y usted cómo está?</span> — <b>挺好挺好，没什么可抱怨的。您呢，身体好吗？</b></td></tr>
+    <tr><td>Petición</td><td><span class="click" onclick="speak('¿Me puede abrir la puerta?')">¿Me puede abrir la puerta?</span> — <b>您能帮我开下门吗？</b></td></tr>
+    <tr><td>Préstamo</td><td><span class="click" onclick="speak('Carlos, perdona, ¿me dejas 5 euros? Mañana te los devuelvo.')">Carlos, perdona, ¿me dejas 5 euros? Mañana te los devuelvo.</span> — <b>卡洛斯，抱歉，借我5欧行吗？明天还你。</b></td></tr>
+    <tr><td>Excusa</td><td><span class="click" onclick="speak('No puedo. Es que tengo que estudiar.')">No puedo. Es que tengo que estudiar.</span> — <b>不行。是因为我得学习。</b></td></tr>
+  </table>
+</section>
+
+<section class="page-section" id="vocabulario">
+  <h2 class="vocab-heading">📖 Vocabulario · 词汇表</h2>
+
+  <h3>Saludos y despedidas · 问候与告别</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('¿Qué tal?')">¿Qué tal?</span></td><td class="zh">怎么样？</td></tr>
+      <tr><td><span class="click" onclick="speak('¿Cómo va todo?')">¿Cómo va todo?</span></td><td class="zh">一切都好吗？</td></tr>
+      <tr><td><span class="click" onclick="speak('¿Cómo está usted?')">¿Cómo está usted?</span></td><td class="zh">您身体好吗？（正式）</td></tr>
+      <tr><td><span class="click" onclick="speak('Hasta luego')">Hasta luego</span></td><td class="zh">回头见</td></tr>
+      <tr><td><span class="click" onclick="speak('Hasta pronto')">Hasta pronto</span></td><td class="zh">不久见</td></tr>
+      <tr><td><span class="click" onclick="speak('Nos vemos')">Nos vemos</span></td><td class="zh">回见</td></tr>
+      <tr><td><span class="click" onclick="speak('Recuerdos a tu familia')">Recuerdos a tu familia</span></td><td class="zh">向你家人问好</td></tr>
+      <tr><td><span class="click" onclick="speak('Un abrazo')">Un abrazo (muy fuerte)</span></td><td class="zh">（热烈地）拥抱你</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Verbos de cortesía · 礼貌动词</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('poder')">poder（请求/许可）</span></td><td class="zh">能、可以</td></tr>
+      <tr><td><span class="click" onclick="speak('importar')">importar（介意吗）</span></td><td class="zh">介意</td></tr>
+      <tr><td><span class="click" onclick="speak('ayudar')">ayudar</span></td><td class="zh">帮忙</td></tr>
+      <tr><td><span class="click" onclick="speak('poner')">poner（点单时说“来一份”）</span></td><td class="zh">放、上（菜）</td></tr>
+      <tr><td><span class="click" onclick="speak('dar')">dar（给，不打算还）</span></td><td class="zh">给</td></tr>
+      <tr><td><span class="click" onclick="speak('dejar')">dejar（借出，要还）</span></td><td class="zh">借给</td></tr>
+      <tr><td><span class="click" onclick="speak('prestar')">prestar（借出）</span></td><td class="zh">借给</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="page-section" id="gramatica">
+  <h2>📚 Gramática · 语法点</h2>
+
+  <div class="grammar-box">
+    <h4>El gerundio · 副动词</h4>
+    <p>规则：-ar 结尾加 <span class="verb">-ando</span>（hablando），-er/-ir 结尾加 <span class="verb">-iendo</span>（comiendo, viviendo）。不规则：<span class="verb">leyendo</span>（leer）、<span class="verb">oyendo</span>（oír）、<span class="verb">diciendo</span>（decir）、<span class="verb">durmiendo</span>（dormir）、<span class="verb">escribiendo</span>（escribir）。</p>
+  </div>
+
+  <div class="grammar-box">
+    <h4>Estar + gerundio · 进行时</h4>
+    <p>表示此刻正在进行、或现阶段临时性的动作：<span class="click" onclick="speak('Estoy trabajando de camarero en una discoteca.')">Estoy trabajando de camarero en una discoteca.</span>（我目前在一家迪厅当服务员。）强调说话瞬间：<span class="click" onclick="speak('No se puede poner al teléfono, se está duchando.')">No se puede poner al teléfono, se está duchando.</span>（他接不了电话，正在洗澡。）</p>
+  </div>
+
+  <div class="grammar-box">
+    <h4>Pedir objetos, acciones y favores · 请求物品、动作与帮助</h4>
+    <p>根据对象与难度选择结构：</p>
+    <table class="vocab-table">
+      <thead><tr><th>对象</th><th>结构</th><th>例句</th></tr></thead>
+      <tbody>
+        <tr><td>tú（熟人）</td><td>¿Me dejas / das…?</td><td><span class="click" onclick="speak('¿Me das un vaso de agua, por favor?')">¿Me das un vaso de agua, por favor?</span></td></tr>
+        <tr><td>usted（正式）</td><td>¿Me puede / podría…?</td><td><span class="click" onclick="speak('¿Me puede abrir la puerta?')">¿Me puede abrir la puerta?</span></td></tr>
+        <tr><td>借他人之物</td><td>prestar / dejar</td><td><span class="click" onclick="speak('¿Me prestas el coche este fin de semana?')">¿Me prestas el coche este fin de semana?</span></td></tr>
+        <tr><td>点单</td><td>poner</td><td><span class="click" onclick="speak('¿Me pone un cortado, por favor?')">¿Me pone un cortado, por favor?</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="grammar-box">
+    <h4>Pedir y conceder permiso · 请求与给予许可</h4>
+    <p>用 <span class="verb">poder</span>（现在时或条件式）+ 原形：<span class="click" onclick="speak('¿Puedo dejar la bolsa aquí un momento?')">¿Puedo dejar la bolsa aquí un momento?</span>（我能把包放这儿一会儿吗？）也可用 <span class="verb">importar si + 现在时</span>：<span class="click" onclick="speak('¿Te importa si hago una llamada?')">¿Te importa si hago una llamada?</span>（我打个电话你介意吗？）</p>
+  </div>
+
+  <div class="grammar-box">
+    <h4>Dar excusas: «es que» · 用“es que”致歉/解释</h4>
+    <p>拒绝邀请或请求时，用 <span class="verb">es que</span> 引出理由，是基本礼貌：<span class="click" onclick="speak('No puedo ir a cenar. Es que tengo que estudiar.')">No puedo ir a cenar. Es que tengo que estudiar.</span>（我不能去吃晚饭，是因为我得学习。）也可用于解释请求：¿Puedo cerrar la ventana? <span class="click" onclick="speak('Es que entra mucho ruido.')">Es que entra mucho ruido.</span>（是因为太吵了。）</p>
+  </div>
+
+  <div class="grammar-box">
+    <h4>El condicional · 条件式（礼貌表达）</h4>
+    <p>使请求更委婉：<span class="click" onclick="speak('¿Podría decirme la hora, por favor?')">¿Podría decirme la hora, por favor?</span>（能请您告诉我时间吗？）<span class="click" onclick="speak('¿Le importaría abrirme la puerta?')">¿Le importaría abrirme la puerta?</span>（您介意帮我开门吗？）</p>
+  </div>
+</section>
+
+<section class="page-section" id="cultura">
+  <h2>☕ Café Cultural · 文化角</h2>
+  <div class="cultura-box">
+    <h4>La vida en las plazas · 广场生活</h4>
+    <p>在西语世界，广场（plaza）是人际交往与社交碰面的核心场所。本单元介绍几座著名广场：</p>
+    <p>· <span class="click" onclick="speak('La Plaza Mayor')">La Plaza Mayor</span>（马德里主广场）：城市的会面中心，周边有露台咖啡馆，也是音乐会、戏剧、圣周游行与美食大赛的舞台。<br>
+    · <span class="click" onclick="speak('La Plaza de la Cebada')">La Plaza de la Cebada</span>（马德里拉拉蒂娜区）：最古老的广场之一，周日阳光明媚时常挤满人，是喝小酒、吃 tapas、与朋友畅饮的好地方。<br>
+    · <span class="click" onclick="speak('La Plaza Serrano')">La Plaza Serrano</span>（布宜诺斯艾利斯巴勒莫区，当地人仍称 Plaza Serrano）：波西米亚街区之心，白天有手工艺集市与街头表演，入夜再次挤满寻欢作乐的人群。</p>
+    <p><b>中文对照：</b>在许多西语国家，广场如同“城市的客厅”；相比之下，有些文化更常在酒吧或朋友家里聚会。</p>
+  </div>
+</section>
+
+<div class="nav-buttons">
+  <a href="../index.html">← 返回首页</a>
+  <a class="secondary" href="#top">↑ 顶部</a>
+  <a href="A2_u05.html">下一单元 →</a>
+</div>
+
+<footer class="site-footer">
+  <p>Aula Internacional 2 (A2) · 本页内容依据原版教材提取并配中文翻译 · 发音使用浏览器西班牙语语音</p>
+  <p>© 西班牙语自学站 · 仅供学习使用</p>
+</footer>
+<script src="../js/aula-audio.js"></script>
+</body>
+</html>

@@ -1,0 +1,456 @@
+{
+ "A1": [
+  {
+   "num": 0,
+   "theme": "EN EL AULA",
+   "objective": "APRENDER A PRESENTARNOS, A PREGUNTAR COSAS EN CLASE Y A SALUDAR Y DESPEDIRNOS",
+   "start_page": 8,
+   "comunicativos": [],
+   "gramaticales": [],
+   "lexicos": []
+  },
+  {
+   "num": 1,
+   "theme": "NOSOTROS",
+   "objective": "CONOCER A LOS COMPAÑEROS DE CLASE",
+   "start_page": 10,
+   "comunicativos": [
+    "dar y pedir los datos personales",
+    "saludar y despedirse",
+    "recursos para preguntar sobre las"
+   ],
+   "gramaticales": [
+    "el género",
+    "las tres conjugaciones: -ar, -er, -ir",
+    "los verbos ser, llamarse y tener"
+   ],
+   "lexicos": [
+    "los números",
+    "nacionalidades",
+    "profesiones",
+    "el abecedario"
+   ]
+  },
+  {
+   "num": 2,
+   "theme": "QUIERO APRENDER ESPAÑOL",
+   "objective": "DECIDIR QUÉ QUEREMOS HACER EN ESTE CURSO DE ESPAÑOL",
+   "start_page": 22,
+   "comunicativos": [
+    "expresar intenciones",
+    "explicar los motivos de lo que",
+    "hablar de lo sabemos hacer en"
+   ],
+   "gramaticales": [
+    "el presente de indicativo",
+    "algunos usos de a, con, de, por, para y porque",
+    "el artículo determinado: el, la, los, las",
+    "los pronombres personales de sujeto",
+    "graduar: bien, bastante bien, regular, mal"
+   ],
+   "lexicos": [
+    "idiomas",
+    "actividades de la clase de lengua",
+    "actividades de ocio"
+   ]
+  },
+  {
+   "num": 3,
+   "theme": "¿DÓNDE ESTÁ SANTIAGO?",
+   "objective": "HACER UN CONCURSO DE CONOCIMIENTOS DEL MUNDO HISPANO",
+   "start_page": 34,
+   "comunicativos": [
+    "describir lugares",
+    "expresar existencia y ubicación",
+    "hablar del clima"
+   ],
+   "gramaticales": [
+    "algunos usos de hay",
+    "el verbo estar",
+    "el superlativo",
+    "un/una/unos/unas",
+    "cuantiﬁcadores: muy, mucho / mucha /",
+    "qué, cuál / cuáles, cuántos / cuántas,"
+   ],
+   "lexicos": [
+    "el tiempo",
+    "geografía",
+    "lugares de interés turístico"
+   ]
+  },
+  {
+   "num": 4,
+   "theme": "¿CUÁL PREFIERES?",
+   "objective": "HACER LA LISTA DE COSAS QUE NECESITAMOS PARA PASAR UN FIN DE SEMANA FUERA Y COMPRAR EN TIENDAS",
+   "start_page": 46,
+   "comunicativos": [
+    "identiﬁcar objetos",
+    "expresar necesidad",
+    "comprar en tiendas: preguntar por",
+    "hablar de preferencias"
+   ],
+   "gramaticales": [
+    "los demostrativos: este / esta / estos / estas, esto",
+    "e l/ la / los / las + adjetivo",
+    "qué + sustantivo,  cuál / cuáles",
+    "tener que + inﬁnitivo",
+    "el verbo ir",
+    "el verbo preferir"
+   ],
+   "lexicos": [
+    "los números a partir de 100",
+    "los colores",
+    "prendas de vestir",
+    "objetos de uso cotidiano"
+   ]
+  },
+  {
+   "num": 5,
+   "theme": "TUS AMIGOS SON MIS AMIGOS",
+   "objective": "PRESENTAR Y DESCRIBIR A UNA PERSONA",
+   "start_page": 58,
+   "comunicativos": [
+    "hablar del aspecto y del carácter",
+    "expresar y contrastar gustos e",
+    "preguntar sobre gustos",
+    "hablar de relaciones personales"
+   ],
+   "gramaticales": [
+    "el verbo gustar",
+    "los cuantiﬁcadores (muy, bastante, un poco)",
+    "los posesivos",
+    "también / tampoco"
+   ],
+   "lexicos": [
+    "la familia",
+    "adjetivos de carácter",
+    "música"
+   ]
+  },
+  {
+   "num": 6,
+   "theme": "DÍA A DÍA",
+   "objective": "CONOCER LOS HÁBITOS DE NUESTROS COMPAÑEROS Y DAR PREMIOS",
+   "start_page": 70,
+   "comunicativos": [
+    "hablar de hábitos",
+    "expresar frecuencia",
+    "preguntar y decir la hora"
+   ],
+   "gramaticales": [
+    "el presente de indicativo de algunos verbos irregulares",
+    "los verbos reﬂexivos",
+    "Yo también / Yo tampoco / Yo sí /  Yo no",
+    "Primero / Después / Luego"
+   ],
+   "lexicos": [
+    "los días de la semana",
+    "las partes del día",
+    "actividades diarias"
+   ]
+  },
+  {
+   "num": 7,
+   "theme": "¡A COMER!",
+   "objective": "CREAR UN MENÚ DEL DÍA Y ELEGIR LOS PLATOS QUE NOS GUSTAN",
+   "start_page": 82,
+   "comunicativos": [
+    "desenvolverse en bares y",
+    "pedir y dar información sobre comida",
+    "hablar de hábitos gastronómicos"
+   ],
+   "gramaticales": [
+    "la forma impersonal con se",
+    "los verbos poner y traer",
+    "los pronombres de OD (lo, la, los, las)"
+   ],
+   "lexicos": [
+    "las comidas del día",
+    "alimentos",
+    "maneras de cocinar",
+    "platos habituales en España y"
+   ]
+  },
+  {
+   "num": 8,
+   "theme": "EL BARRIO IDEAL",
+   "objective": "IMAGINAR Y DESCRIBIR UN BARRIO IDEAL",
+   "start_page": 94,
+   "comunicativos": [
+    "describir pueblos, barrios y ciudades",
+    "hablar de lo que más nos gusta de",
+    "pedir y dar información para llegar",
+    "expresar gustos y resaltar un aspecto"
+   ],
+   "gramaticales": [
+    "cuantiﬁcadores (algún, ningún, muchos)",
+    "preposiciones y adverbios de lugar (a, en, al lado de,"
+   ],
+   "lexicos": [
+    "servicios y lugares de las ciudades",
+    "adjetivos para describir un barrio"
+   ]
+  },
+  {
+   "num": 9,
+   "theme": "¿SABES CONDUCIR?",
+   "objective": "ELEGIR AL CANDIDATO IDEAL PARA REALIZAR UN TRABAJO.",
+   "start_page": 106,
+   "comunicativos": [
+    "hablar de experiencias pasadas",
+    "hablar de habilidades y aptitudes",
+    "hablar de cualidades y defectos de las"
+   ],
+   "gramaticales": [
+    "el pretérito perfecto",
+    "saber + inﬁnitivo",
+    "poder + inﬁnitivo"
+   ],
+   "lexicos": [
+    "expresiones de frecuencia",
+    "adjetivos de carácter"
+   ]
+  }
+ ],
+ "A2": [
+  {
+   "num": 1,
+   "theme": "EL ESPAÑOL Y TÚ",
+   "objective": "HACER RECOMENDACIONES A NUESTROS COMPAÑEROS PARA APRENDER MEJOR EL ESPAÑOL",
+   "start_page": 10,
+   "comunicativos": [
+    "hablar de hábitos y de dificultades",
+    "hablar de la duración",
+    "hacer recomendaciones",
+    "describir sentimientos",
+    "preguntar y responder sobre motivaciones"
+   ],
+   "gramaticales": [
+    "los presentes regulares e irregulares",
+    "verbos reflexivos",
+    "los verbos costar y sentirse",
+    "para / porque",
+    "desde / desde hace / hace... que"
+   ],
+   "lexicos": [
+    "actividades para aprender idiomas",
+    "profesiones",
+    "el abecedario"
+   ]
+  },
+  {
+   "num": 2,
+   "theme": "UNA VIDA DE PELÍCULA",
+   "objective": "ESCRIBIR UNA BIOGRAFÍA",
+   "start_page": 22,
+   "comunicativos": [
+    "relatar y relacionar acontecimientos",
+    "hablar del inicio y de la duración de"
+   ],
+   "gramaticales": [
+    "forma y usos del pretérito indefinido",
+    "empezar a + infinitivo",
+    "ir / irse",
+    "marcadores temporales para el pasado",
+    "las preposiciones desde, durante y hasta"
+   ],
+   "lexicos": [
+    "cine",
+    "biografías"
+   ]
+  },
+  {
+   "num": 3,
+   "theme": "HOGAR, DULCE HOGAR",
+   "objective": "AMUEBLAR UNA CASA Y DISEÑAR UNA VIVIENDA",
+   "start_page": 34,
+   "comunicativos": [
+    "expresar gustos y preferencias",
+    "describir una casa",
+    "comparar",
+    "expresar coincidencia",
+    "ubicar objetos en el espacio",
+    "describir objetos"
+   ],
+   "gramaticales": [
+    "comparativos",
+    "preposiciones: sin, con, debajo, encima, detrás,",
+    "pronombres posesivos: el mío / la mía, el tuyo / la",
+    "usos de ser y estar",
+    "verbos gustar, encantar y preferir"
+   ],
+   "lexicos": [
+    "tipos de vivienda",
+    "partes de una vivienda",
+    "formas, estilos y materiales"
+   ]
+  },
+  {
+   "num": 4,
+   "theme": "¿CÓMO VA TODO?",
+   "objective": "SIMULAR SITUACIONES DE CONTACTO SOCIAL UTILIZANDO DIFERENTES NIVELES DE FORMALIDAD",
+   "start_page": 46,
+   "comunicativos": [
+    "desenvolvernos en situaciones muy",
+    "pedir cosas, acciones y favores",
+    "pedir y conceder permiso",
+    "dar excusas y justificar"
+   ],
+   "gramaticales": [
+    "el gerundio (formas regulares e irregulares)",
+    "estar + gerundio",
+    "condicional"
+   ],
+   "lexicos": [
+    "saludos y despedidas",
+    "verbos de cortesía: poder, importar,",
+    "dar , dejar y prestar"
+   ]
+  },
+  {
+   "num": 5,
+   "theme": "GUÍA DEL OCIO",
+   "objective": "PLANIFICAR UN FIN DE SEMANA EN UNA CIUDAD ESPAÑOLA",
+   "start_page": 58,
+   "comunicativos": [
+    "hablar de actividades de ocio",
+    "hablar de horarios",
+    "relatar experiencias pasadas",
+    "describir lugares",
+    "hablar de intenciones y proyectos"
+   ],
+   "gramaticales": [
+    "el pretérito perfecto",
+    "ya / todavía no",
+    "ir a + infinitivo",
+    "querer / pensar + infinitivo"
+   ],
+   "lexicos": [
+    "actividades y lugares de ocio",
+    "viajes"
+   ]
+  },
+  {
+   "num": 6,
+   "theme": "NO COMO CARNE",
+   "objective": "PREPARAR UNA CENA PARA UNA FIESTA CON TODA LA CLASE",
+   "start_page": 70,
+   "comunicativos": [
+    "hablar de gustos y hábitos alimentarios",
+    "explicar cómo se prepara un plato"
+   ],
+   "gramaticales": [
+    "los pronombres personales de OD",
+    "las formas impersonales con se",
+    "algunos usos de ser y estar",
+    "y, pero, además"
+   ],
+   "lexicos": [
+    "alimentos",
+    "recetas",
+    "pesos y medidas"
+   ]
+  },
+  {
+   "num": 7,
+   "theme": "NOS GUSTÓ MUCHO",
+   "objective": "ESCRIBIR UN ARTÍCULO SOBRE LAS COSAS MÁS INTERESANTES DEL LUGAR EN EL QUE ESTAMOS",
+   "start_page": 82,
+   "comunicativos": [
+    "hablar de experiencias y valorarlas",
+    "valorar personas y cosas",
+    "expresar el deseo de hacer algo"
+   ],
+   "gramaticales": [
+    "usos del pretérito perfecto y del pretérito indefinido",
+    "me / te / le / nos / os / les gustaría + infinitivo",
+    "frases exclamativas"
+   ],
+   "lexicos": [
+    "parecer",
+    "caer bien / mal",
+    "pasárselo bien / mal",
+    "lugares de interés y ofertas"
+   ]
+  },
+  {
+   "num": 8,
+   "theme": "ESTAMOS MUY BIEN",
+   "objective": "BUSCAR SOLUCIONES PARA ALGUNOS PROBLEMAS DE NUESTROS COMPAÑEROS",
+   "start_page": 94,
+   "comunicativos": [
+    "dar consejos",
+    "hablar de estados de ánimo",
+    "describir dolores, molestias y"
+   ],
+   "gramaticales": [
+    "usos de los verbos ser y estar",
+    "verbo doler",
+    "forma y algunos usos del imperativo afirmativo"
+   ],
+   "lexicos": [
+    "partes del cuerpo",
+    "estados de ánimo",
+    "enfermedades y síntomas"
+   ]
+  },
+  {
+   "num": 9,
+   "theme": "ANTES Y AHORA",
+   "objective": "DECIDIR CUÁL HA SIDO LA ÉPOCA MÁS INTERESANTE DE LA HISTORIA.",
+   "start_page": 106,
+   "comunicativos": [
+    "hablar de hábitos, costumbres y",
+    "situar acciones en el pasado y en el",
+    "argumentar y debatir"
+   ],
+   "gramaticales": [
+    "el pretérito imperfecto",
+    "ya no / todavía",
+    "marcadores temporales para el pasado",
+    "marcadores temporales para el presente"
+   ],
+   "lexicos": [
+    "viajes",
+    "periodos históricos",
+    "etapas de la vida"
+   ]
+  },
+  {
+   "num": 10,
+   "theme": "MOMENTOS ESPECIALES",
+   "objective": "CONTAR ANÉCDOTAS PERSONALES",
+   "start_page": 118,
+   "comunicativos": [
+    "relatar en pasado",
+    "secuenciar acciones",
+    "expresar emociones"
+   ],
+   "gramaticales": [
+    "formas irregulares del pretérito indefinido",
+    "el contraste entre el pretérito indefinido y el imperfecto",
+    "las formas del pasado de estar + gerundio",
+    "marcadores temporales para relatar"
+   ],
+   "lexicos": [
+    "acontecimientos históricos",
+    "emociones"
+   ]
+  }
+ ],
+ "B1": [
+  {
+   "num": 8,
+   "theme": "EL TURISTA ACCIDENTAL",
+   "objective": "CONTAR ANÉCDOTAS REALES O INVENTADAS",
+   "start_page": 94,
+   "comunicativos": [
+    "hablar de causas y consecuencias"
+   ],
+   "gramaticales": [],
+   "lexicos": []
+  }
+ ],
+ "B2.1": [],
+ "B2.2": []
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unidad 1 · Nosotros (A1) — Aula Internacional</title>
+<link rel="stylesheet" href="../css/aula-styles.css">
+</head>
+<body>
+<div class="scroll-progress"></div>
+<nav class="top-nav">
+  <div class="logo"><span class="flag">🇪🇸</span> Aula Internacional · 西语自学站</div>
+  <nav>
+    <a href="../index.html">首页</a>
+    <a href="#dialogos">对话</a>
+    <a href="#vocabulario">词汇</a>
+    <a href="#gramatica">语法</a>
+    <a href="#cultura">文化</a>
+    <a href="#" onclick="toggleDark()">🌓</a>
+  </nav>
+</nav>
+
+<header class="unit-hero">
+  <span class="badge">Nivel A1</span>
+  <h1>Unidad 1 · Nosotros</h1>
+  <div class="sub">Conocer a los compañeros de clase · 认识同班同学</div>
+  <div class="tags">
+    <span class="tag">交际：询问与提供个人资料</span>
+    <span class="tag">语法：ser / llamarse / tener</span>
+    <span class="tag">词汇：数字·国籍·职业</span>
+  </div>
+</header>
+
+<section class="page-section" id="dialogos">
+  <h2>💬 Diálogos · 核心对话</h2>
+  <p>在马德里一所西班牙语学校的接待处，三名学生登记个人资料。点击任意西语句子可听发音。</p>
+  <table class="dialog-table">
+    <tr><td>Pregunta</td><td>问句 · <span class="click" onclick="speak('¿Cómo te llamas?')">¿Cómo te llamas?</span> — <b>你叫什么名字？</b></td></tr>
+    <tr><td>Respuesta</td><td>答句 · <span class="click" onclick="speak('Me llamo Daniel.')">Me llamo Daniel.</span> — <b>我叫丹尼尔。</b></td></tr>
+    <tr><td>Pregunta</td><td><span class="click" onclick="speak('¿Cuál es tu nombre?')">¿Cuál es tu nombre?</span> — <b>你的名字是什么？</b></td></tr>
+    <tr><td>Pregunta</td><td><span class="click" onclick="speak('¿Cuántos años tienes?')">¿Cuántos años tienes?</span> — <b>你几岁？</b></td></tr>
+    <tr><td>Respuesta</td><td><span class="click" onclick="speak('Tengo 23 años.')">Tengo 23 años.</span> — <b>我23岁。</b></td></tr>
+    <tr><td>Pregunta</td><td><span class="click" onclick="speak('¿De dónde eres?')">¿De dónde eres?</span> — <b>你来自哪里？</b></td></tr>
+    <tr><td>Respuesta</td><td><span class="click" onclick="speak('Soy alemán.')">Soy alemán.</span> / <span class="click" onclick="speak('Soy de Berlín.')">Soy de Berlín.</span> — <b>我是德国人。/ 我来自柏林。</b></td></tr>
+    <tr><td>Pregunta</td><td><span class="click" onclick="speak('¿A qué te dedicas?')">¿A qué te dedicas?</span> — <b>你从事什么工作？</b></td></tr>
+    <tr><td>Respuesta</td><td><span class="click" onclick="speak('Trabajo en un banco.')">Trabajo en un banco.</span> — <b>我在银行工作。</b></td></tr>
+    <tr><td>Pregunta</td><td><span class="click" onclick="speak('¿Tienes móvil?')">¿Tienes móvil?</span> — <b>你有手机吗？</b></td></tr>
+  </table>
+</section>
+
+<section class="page-section" id="vocabulario">
+  <h2 class="vocab-heading">📖 Vocabulario · 词汇表</h2>
+
+  <h3>El alfabeto · 西班牙语字母表</h3>
+  <table class="vocab-table">
+    <thead><tr><th>字母</th><th>名称</th><th>中文</th><th>例词</th></tr></thead>
+    <tbody>
+      <tr><td>a</td><td><span class="click" onclick="speak('a')">a</span></td><td class="zh">a</td><td>Alberto</td></tr>
+      <tr><td>b</td><td><span class="click" onclick="speak('be')">be</span></td><td class="zh">be</td><td>Buenos Aires</td></tr>
+      <tr><td>c</td><td><span class="click" onclick="speak('ce')">ce</span></td><td class="zh">ce</td><td>Cuba</td></tr>
+      <tr><td>d</td><td><span class="click" onclick="speak('de')">de</span></td><td class="zh">de</td><td>Diego</td></tr>
+      <tr><td>e</td><td><span class="click" onclick="speak('e')">e</span></td><td class="zh">e</td><td>Elena</td></tr>
+      <tr><td>f</td><td><span class="click" onclick="speak('efe')">efe</span></td><td class="zh">efe</td><td>Federico</td></tr>
+      <tr><td>g</td><td><span class="click" onclick="speak('ge')">ge</span></td><td class="zh">ge</td><td>García</td></tr>
+      <tr><td>h</td><td><span class="click" onclick="speak('hache')">hache</span></td><td class="zh">hache（不发音）</td><td>Honduras</td></tr>
+      <tr><td>i</td><td><span class="click" onclick="speak('i')">i</span></td><td class="zh">i</td><td>Ignacio</td></tr>
+      <tr><td>j</td><td><span class="click" onclick="speak('jota')">jota</span></td><td class="zh">jota</td><td>Javier</td></tr>
+      <tr><td>k</td><td><span class="click" onclick="speak('ka')">ka</span></td><td class="zh">ka</td><td>Kenia</td></tr>
+      <tr><td>l</td><td><span class="click" onclick="speak('ele')">ele</span></td><td class="zh">ele</td><td>Luis</td></tr>
+      <tr><td>m</td><td><span class="click" onclick="speak('eme')">eme</span></td><td class="zh">eme</td><td>María</td></tr>
+      <tr><td>n</td><td><span class="click" onclick="speak('ene')">ene</span></td><td class="zh">ene</td><td>Natalia</td></tr>
+      <tr><td>ñ</td><td><span class="click" onclick="speak('eñe')">eñe</span></td><td class="zh">eñe（西语特有）</td><td>España</td></tr>
+      <tr><td>o</td><td><span class="click" onclick="speak('o')">o</span></td><td class="zh">o</td><td>Óscar</td></tr>
+      <tr><td>p</td><td><span class="click" onclick="speak('pe')">pe</span></td><td class="zh">pe</td><td>Pérez</td></tr>
+      <tr><td>q</td><td><span class="click" onclick="speak('cu')">cu</span></td><td class="zh">cu</td><td>Quito</td></tr>
+      <tr><td>r</td><td><span class="click" onclick="speak('erre')">erre</span></td><td class="zh">erre</td><td>Ramón</td></tr>
+      <tr><td>s</td><td><span class="click" onclick="speak('ese')">ese</span></td><td class="zh">ese</td><td>Sara</td></tr>
+      <tr><td>t</td><td><span class="click" onclick="speak('te')">te</span></td><td class="zh">te</td><td>Teresa</td></tr>
+      <tr><td>u</td><td><span class="click" onclick="speak('u')">u</span></td><td class="zh">u</td><td>Uruguay</td></tr>
+      <tr><td>v</td><td><span class="click" onclick="speak('uve')">uve</span></td><td class="zh">uve</td><td>Venezuela</td></tr>
+      <tr><td>w</td><td><span class="click" onclick="speak('uve doble')">uve doble</span></td><td class="zh">uve doble</td><td>Wálter</td></tr>
+      <tr><td>x</td><td><span class="click" onclick="speak('equis')">equis</span></td><td class="zh">equis</td><td>Álex</td></tr>
+      <tr><td>y</td><td><span class="click" onclick="speak('i griega')">i griega</span></td><td class="zh">i griega</td><td>Yolanda</td></tr>
+      <tr><td>z</td><td><span class="click" onclick="speak('ceta')">ceta</span></td><td class="zh">ceta</td><td>Zaragoza</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Los números 0–40 · 数字</h3>
+  <table class="vocab-table">
+    <thead><tr><th>数字</th><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td>0</td><td><span class="click" onclick="speak('cero')">cero</span></td><td class="zh">零</td></tr>
+      <tr><td>1</td><td><span class="click" onclick="speak('uno')">uno</span></td><td class="zh">一</td></tr>
+      <tr><td>2</td><td><span class="click" onclick="speak('dos')">dos</span></td><td class="zh">二</td></tr>
+      <tr><td>3</td><td><span class="click" onclick="speak('tres')">tres</span></td><td class="zh">三</td></tr>
+      <tr><td>4</td><td><span class="click" onclick="speak('cuatro')">cuatro</span></td><td class="zh">四</td></tr>
+      <tr><td>5</td><td><span class="click" onclick="speak('cinco')">cinco</span></td><td class="zh">五</td></tr>
+      <tr><td>10</td><td><span class="click" onclick="speak('diez')">diez</span></td><td class="zh">十</td></tr>
+      <tr><td>15</td><td><span class="click" onclick="speak('quince')">quince</span></td><td class="zh">十五</td></tr>
+      <tr><td>20</td><td><span class="click" onclick="speak('veinte')">veinte</span></td><td class="zh">二十</td></tr>
+      <tr><td>21</td><td><span class="click" onclick="speak('veintiuno')">veintiuno</span></td><td class="zh">二十一</td></tr>
+      <tr><td>30</td><td><span class="click" onclick="speak('treinta')">treinta</span></td><td class="zh">三十</td></tr>
+      <tr><td>40</td><td><span class="click" onclick="speak('cuarenta')">cuarenta</span></td><td class="zh">四十</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Cosas de la clase · 课堂物品</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('la silla')">la silla</span></td><td class="zh">椅子</td></tr>
+      <tr><td><span class="click" onclick="speak('el bolígrafo')">el bolígrafo</span></td><td class="zh">圆珠笔</td></tr>
+      <tr><td><span class="click" onclick="speak('el proyector')">el proyector</span></td><td class="zh">投影仪</td></tr>
+      <tr><td><span class="click" onclick="speak('el ordenador')">el ordenador</span></td><td class="zh">电脑</td></tr>
+      <tr><td><span class="click" onclick="speak('la papelera')">la papelera</span></td><td class="zh">废纸篓</td></tr>
+      <tr><td><span class="click" onclick="speak('el cuaderno')">el cuaderno</span></td><td class="zh">笔记本</td></tr>
+      <tr><td><span class="click" onclick="speak('la pizarra')">la pizarra</span></td><td class="zh">黑板</td></tr>
+      <tr><td><span class="click" onclick="speak('la mesa')">la mesa</span></td><td class="zh">桌子</td></tr>
+      <tr><td><span class="click" onclick="speak('el libro')">el libro</span></td><td class="zh">书</td></tr>
+      <tr><td><span class="click" onclick="speak('la mochila')">la mochila</span></td><td class="zh">背包</td></tr>
+      <tr><td><span class="click" onclick="speak('la hoja de papel')">la hoja de papel</span></td><td class="zh">一张纸</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Nacionalidades y profesiones · 国籍与职业</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('alemán')">alemán / alemana</span></td><td class="zh">德国人</td></tr>
+      <tr><td><span class="click" onclick="speak('francés')">francés / francesa</span></td><td class="zh">法国人</td></tr>
+      <tr><td><span class="click" onclick="speak('italiano')">italiano / italiana</span></td><td class="zh">意大利人</td></tr>
+      <tr><td><span class="click" onclick="speak('brasileño')">brasileño / brasileña</span></td><td class="zh">巴西人</td></tr>
+      <tr><td><span class="click" onclick="speak('español')">español / española</span></td><td class="zh">西班牙人</td></tr>
+      <tr><td><span class="click" onclick="speak('el profesor')">el profesor / la profesora</span></td><td class="zh">老师</td></tr>
+      <tr><td><span class="click" onclick="speak('el traductor')">el traductor / la traductora</span></td><td class="zh">笔译员</td></tr>
+      <tr><td><span class="click" onclick="speak('el cocinero')">el cocinero / la cocinera</span></td><td class="zh">厨师</td></tr>
+      <tr><td><span class="click" onclick="speak('el camarero')">el camarero / la camarera</span></td><td class="zh">服务员</td></tr>
+      <tr><td><span class="click" onclick="speak('el enfermero')">el enfermero / la enfermera</span></td><td class="zh">护士</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Aficiones · 爱好</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('cocinar')">cocinar</span></td><td class="zh">做饭</td></tr>
+      <tr><td><span class="click" onclick="speak('ver la tele')">ver la tele</span></td><td class="zh">看电视</td></tr>
+      <tr><td><span class="click" onclick="speak('esquiar')">esquiar</span></td><td class="zh">滑雪</td></tr>
+      <tr><td><span class="click" onclick="speak('ir al gimnasio')">ir al gimnasio</span></td><td class="zh">去健身房</td></tr>
+      <tr><td><span class="click" onclick="speak('cantar')">cantar</span></td><td class="zh">唱歌</td></tr>
+      <tr><td><span class="click" onclick="speak('bailar')">bailar</span></td><td class="zh">跳舞</td></tr>
+      <tr><td><span class="click" onclick="speak('leer')">leer</span></td><td class="zh">阅读</td></tr>
+      <tr><td><span class="click" onclick="speak('el fútbol')">el fútbol</span></td><td class="zh">足球</td></tr>
+      <tr><td><span class="click" onclick="speak('viajar')">viajar</span></td><td class="zh">旅行</td></tr>
+      <tr><td><span class="click" onclick="speak('escribir')">escribir</span></td><td class="zh">写作</td></tr>
+      <tr><td><span class="click" onclick="speak('el tenis')">el tenis</span></td><td class="zh">网球</td></tr>
+      <tr><td><span class="click" onclick="speak('tocar la guitarra')">tocar la guitarra</span></td><td class="zh">弹吉他</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="page-section" id="gramatica">
+  <h2>📚 Gramática · 语法点</h2>
+
+  <div class="grammar-box">
+    <h4>Datos personales · 询问个人资料</h4>
+    <p>本单元核心交际功能是用 <span class="verb">ser</span>、<span class="verb">llamarse</span>、<span class="verb">tener</span> 介绍自己：</p>
+    <table class="vocab-table">
+      <thead><tr><th>问句</th><th>答句</th><th>中文</th></tr></thead>
+      <tbody>
+        <tr><td><span class="click" onclick="speak('¿Cómo te llamas?')">¿Cómo te llamas?</span></td><td><span class="click" onclick="speak('Me llamo Daniel.')">Me llamo Daniel.</span></td><td class="zh">你叫什么？/ 我叫丹尼尔。</td></tr>
+        <tr><td><span class="click" onclick="speak('¿Cuántos años tienes?')">¿Cuántos años tienes?</span></td><td><span class="click" onclick="speak('Tengo 23 años.')">Tengo 23 años.</span></td><td class="zh">你几岁？/ 我23岁。</td></tr>
+        <tr><td><span class="click" onclick="speak('¿De dónde eres?')">¿De dónde eres?</span></td><td><span class="click" onclick="speak('Soy de Berlín.')">Soy de Berlín.</span></td><td class="zh">你来自哪里？/ 我来自柏林。</td></tr>
+        <tr><td><span class="click" onclick="speak('¿A qué te dedicas?')">¿A qué te dedicas?</span></td><td><span class="click" onclick="speak('Trabajo de camarero.')">Trabajo de camarero.</span></td><td class="zh">你做什么工作？/ 我是服务员。</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="grammar-box">
+    <h4>El género · 名词的性</h4>
+    <p>西班牙语名词分<span class="verb">阳性</span>与<span class="verb">阴性</span>。通常以 <b>-o</b> 结尾为阳性（el libro），以 <b>-a</b> 结尾为阴性（la mesa）。以 <b>-e</b> 或辅音结尾需单独记忆（el coche, la noche）。</p>
+  </div>
+
+  <div class="grammar-box">
+    <h4>Las tres conjugaciones · 三类变位动词</h4>
+    <p>动词按原形词尾分为 <span class="verb">-ar</span>（hablar）、<span class="verb">-er</span>（comer）、<span class="verb">-ir</span>（vivir）三类。本单元出现的不规则要点：</p>
+    <table class="vocab-table">
+      <thead><tr><th>动词</th><th>用法</th><th>中文</th></tr></thead>
+      <tbody>
+        <tr><td><span class="click" onclick="speak('ser')">ser</span></td><td>表示国籍、职业、来源</td><td class="zh">是（永久属性）</td></tr>
+        <tr><td><span class="click" onclick="speak('llamarse')">llamarse</span></td><td>自我介绍名字</td><td class="zh">叫……名字</td></tr>
+        <tr><td><span class="click" onclick="speak('tener')">tener</span></td><td>表示年龄、拥有</td><td class="zh">有；……岁</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="page-section" id="cultura">
+  <h2>☕ Café Cultural · 文化角</h2>
+  <div class="cultura-box">
+    <h4>Tratamientos: tú y usted · 称呼：你与他/您</h4>
+    <p>西班牙语用 <span class="click" onclick="speak('tú')">tú</span>（你，非正式，用于朋友、同学、家人）与 <span class="click" onclick="speak('usted')">usted</span>（您，正式，用于陌生人、长辈、上司）区分熟稔与礼貌。称呼他人时常用 <span class="click" onclick="speak('señor')">señor</span>（先生）/ <span class="click" onclick="speak('señora')">señora</span>（女士）加姓氏，如「Señor Martínez, por favor」。</p>
+    <p><b>中文对照：</b>中文仅靠语境与「您/你」区分，而西语在动词变位上直接体现，是西语社交礼仪的核心。</p>
+  </div>
+</section>
+
+<div class="nav-buttons">
+  <a href="../index.html">← 返回首页</a>
+  <a class="secondary" href="#top">↑ 顶部</a>
+  <a href="A1_u02.html">下一单元 →</a>
+</div>
+
+<footer class="site-footer">
+  <p>Aula Internacional 1 (A1) · 本页内容依据原版教材提取并配中文翻译 · 发音使用浏览器西班牙语语音</p>
+  <p>© 西班牙语自学站 · 仅供学习使用</p>
+</footer>
+<script src="../js/aula-audio.js"></script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unidad 7 · Nos gustó mucho (A2) — Aula Internacional</title>
+<link rel="stylesheet" href="../css/aula-styles.css">
+</head>
+<body>
+<div class="scroll-progress"></div>
+<nav class="top-nav">
+  <div class="logo"><span class="flag">🇪🇸</span> Aula Internacional · 西语自学站</div>
+  <nav>
+    <a href="../index.html">首页</a>
+    <a href="#dialogos">对话</a>
+    <a href="#vocabulario">词汇</a>
+    <a href="#gramatica">语法</a>
+    <a href="#cultura">文化</a>
+    <a href="#" onclick="toggleDark()">🌓</a>
+  </nav>
+</nav>
+
+<header class="unit-hero">
+  <span class="badge">Nivel A2</span>
+  <h1>Unidad 7 · Nos gustó mucho</h1>
+  <div class="sub">Valorar experiencias, lugares y personas · 评价经历、地点与人</div>
+  <div class="tags">
+    <span class="tag">交际：讲述旅行、表达喜好与印象、做出反应</span>
+    <span class="tag">语法：valorar、gustaría + 原形、感叹句、parecer、pasárselo bien/mal、caer bien/mal</span>
+    <span class="tag">词汇：旅行目的地、评价表达</span>
+  </div>
+</header>
+
+<section class="page-section" id="dialogos">
+  <h2>💬 Diálogos · 核心对话</h2>
+  <p>本单元通过哥斯达黎加、圣塞瓦斯蒂安等地的游记与邮件，学习如何评价一段经历、一个地方或一个人。点击任意西语句子可听发音。</p>
+  <table class="dialog-table">
+    <tr><td>Costa Rica</td><td><span class="click" onclick="speak('Nuestra primera excursión fue a Bahía Ballena, donde vimos ballenas. ¡Qué lugar tan increíble!')">Nuestra primera excursión fue a Bahía Ballena, donde vimos ballenas. ¡Qué lugar tan increíble!</span> — <b>我们第一次出游去了鲸鱼湾，在那儿看到了鲸鱼。这地方太不可思议了！</b></td></tr>
+    <tr><td>Playas</td><td><span class="click" onclick="speak('Hicimos una excursión en bici desde Puerto Viejo hasta Manzanillo. ¡Pasamos por playas maravillosas!')">Hicimos una excursión en bici desde Puerto Viejo hasta Manzanillo. ¡Pasamos por playas maravillosas!</span> — <b>我们从旧港骑单车到了曼萨尼约，路过美极了的海滩！</b></td></tr>
+    <tr><td>Comida típica</td><td><span class="click" onclick="speak('Comimos gallopinto, un plato tradicional de Costa Rica. ¡Qué cosa tan rica!')">Comimos gallopinto, un plato tradicional de Costa Rica. ¡Qué cosa tan rica!</span> — <b>我们吃了加洛平托，哥斯达黎加的传统菜。真好吃！</b></td></tr>
+    <tr><td>San Sebastián</td><td><span class="click" onclick="speak('A mí me gustaría ir a la playa de La Concha porque me gusta mucho la playa.')">A mí me gustaría ir a la playa de La Concha porque me gusta mucho la playa.</span> — <b>我想去贝壳湾海滩，因为我特别喜欢海滩。</b></td></tr>
+    <tr><td>Restaurante</td><td><span class="click" onclick="speak('Pues a mí me gustaría ir al restaurante Arzak porque me encantaría probar la cocina vasca.')">Pues a mí me gustaría ir al restaurante Arzak porque me encantaría probar la cocina vasca.</span> — <b>那我想去 Arzak 餐厅，因为我很想尝尝巴斯克菜。</b></td></tr>
+    <tr><td>Email de Claudia</td><td><span class="click" onclick="speak('Me fui en tren a Sevilla. ¡Fue fantástico! Me lo pasé fenomenal.')">Me fui en tren a Sevilla. ¡Fue fantástico! Me lo pasé fenomenal.</span> — <b>我坐火车去了塞维利亚。太棒了！我玩得开心极了。</b></td></tr>
+    <tr><td>Personas</td><td><span class="click" onclick="speak('Conocí a sus padres: me cayeron muy bien, son muy simpáticos.')">Conocí a sus padres: me cayeron muy bien, son muy simpáticos.</span> — <b>我认识了他父母：我很喜欢他们，人特别好。</b></td></tr>
+    <tr><td>Negativo</td><td><span class="click" onclick="speak('Ayer fui a la exposición. ¡No me gustó nada! ¡Qué horror!')">Ayer fui a la exposición. ¡No me gustó nada! ¡Qué horror!</span> — <b>昨天我去看展了。一点都不喜欢！太糟了！</b></td></tr>
+    <tr><td>Película</td><td><span class="click" onclick="speak('Ayer fui al cine a ver la última película de Icíar Bollaín. ¡Qué película tan buena! Me encantó.')">Ayer fui al cine a ver la última película de Icíar Bollaín. ¡Qué película tan buena! Me encantó.</span> — <b>昨天我去看了伊西亚尔·博拉因的新片。电影真好！我太喜欢了。</b></td></tr>
+    <tr><td>Reacción</td><td><span class="click" onclick="speak('Me voy a Tailandia. El vuelo me ha costado 650 euros.')">Me voy a Tailandia. El vuelo me ha costado 650 euros.</span> / <span class="click" onclick="speak('¡Qué barato!')">¡Qué barato!</span> — <b>我要去泰国。机票花了 650 欧。/ 真便宜！</b></td></tr>
+  </table>
+</section>
+
+<section class="page-section" id="vocabulario">
+  <h2 class="vocab-heading">📖 Vocabulario · 词汇表</h2>
+
+  <h3>Lugares y viajes · 地点与旅行</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('Bahía Ballena')">Bahía Ballena</span></td><td class="zh">鲸鱼湾</td></tr>
+      <tr><td><span class="click" onclick="speak('la costa del Caribe')">la costa del Caribe</span></td><td class="zh">加勒比海岸</td></tr>
+      <tr><td><span class="click" onclick="speak('Monteverde')">Monteverde</span></td><td class="zh">蒙特维德（生态保护区）</td></tr>
+      <tr><td><span class="click" onclick="speak('el gallopinto')">el gallopinto</span></td><td class="zh">加洛平托（哥斯达黎加传统饭）</td></tr>
+      <tr><td><span class="click" onclick="speak('La Concha')">La Concha</span></td><td class="zh">贝壳湾（圣塞瓦斯蒂安海滩）</td></tr>
+      <tr><td><span class="click" onclick="speak('el Aquarium')">el Aquarium</span></td><td class="zh">水族馆</td></tr>
+      <tr><td><span class="click" onclick="speak('el Kursaal')">el Kursaal</span></td><td class="zh">库尔萨尔会议中心</td></tr>
+      <tr><td><span class="click" onclick="speak('Arzak')">Arzak</span></td><td class="zh">Arzak 餐厅（米其林三星）</td></tr>
+      <tr><td><span class="click" onclick="speak('la cocina vasca')">la cocina vasca</span></td><td class="zh">巴斯克菜</td></tr>
+      <tr><td><span class="click" onclick="speak('una reserva biológica')">una reserva biológica</span></td><td class="zh">生态保护区</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Expresiones para valorar · 评价表达</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('fantástico')">fantástico / fenomenal</span></td><td class="zh">太棒了</td></tr>
+      <tr><td><span class="click" onclick="speak('increíble')">increíble</span></td><td class="zh">不可思议</td></tr>
+      <tr><td><span class="click" onclick="speak('me encantó')">me encantó</span></td><td class="zh">我非常喜欢</td></tr>
+      <tr><td><span class="click" onclick="speak('no me gustó nada')">no me gustó nada</span></td><td class="zh">我一点都不喜欢</td></tr>
+      <tr><td><span class="click" onclick="speak('¡Qué horror!')">¡Qué horror!</span></td><td class="zh">太可怕了！</td></tr>
+      <tr><td><span class="click" onclick="speak('un rollo')">un rollo</span></td><td class="zh">真无聊 / 讨厌</td></tr>
+      <tr><td><span class="click" onclick="speak('me cayó muy bien')">me cayó / cayeron muy bien</span></td><td class="zh">我很喜欢（某人）</td></tr>
+      <tr><td><span class="click" onclick="speak('me lo pasé muy bien')">me lo pasé muy bien / mal</span></td><td class="zh">我过得很开心 / 很糟</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Reacciones · 反应语</h3>
+  <table class="vocab-table">
+    <thead><tr><th>西语</th><th>中文</th></tr></thead>
+    <tbody>
+      <tr><td><span class="click" onclick="speak('¡Qué emocionante!')">¡Qué emocionante!</span></td><td class="zh">真令人激动！</td></tr>
+      <tr><td><span class="click" onclick="speak('¡Qué envidia me das!')">¡Qué envidia me das!</span></td><td class="zh">真羡慕你！</td></tr>
+      <tr><td><span class="click" onclick="speak('¡Qué bien!')">¡Qué bien!</span></td><td class="zh">真好！</td></tr>
+      <tr><td><span class="click" onclick="speak('¡Qué curioso!')">¡Qué curioso!</span></td><td class="zh">真有意思！</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="page-section" id="gramatica">
+  <h2>📚 Gramática · 语法点</h2>
+
+  <div class="grammar-box">
+    <h4>Expresar el deseo: gustaría + infinitivo · 表达愿望</h4>
+    <p>用 <span class="verb">gustaría</span>（gustar 的条件式）+ 原形表示「（我）想去 / 想看 / 想买」：</p>
+    <table class="vocab-table">
+      <thead><tr><th>人称</th><th>形式</th><th>例句</th></tr></thead>
+      <tbody>
+        <tr><td>(a mí)</td><td>me gustaría</td><td><span class="click" onclick="speak('Me gustaría ir al circo.')">Me gustaría ir al circo.</span></td></tr>
+        <tr><td>(a ti)</td><td>te gustaría</td><td><span class="click" onclick="speak('¿Te gustaría ir al circo esta tarde?')">¿Te gustaría ir al circo esta tarde?</span></td></tr>
+        <tr><td>(a él)</td><td>le gustaría</td><td><span class="click" onclick="speak('Le gustaría probar la cocina vasca.')">Le gustaría probar la cocina vasca.</span></td></tr>
+        <tr><td>(a nosotros)</td><td>nos gustaría</td><td><span class="click" onclick="speak('Nos gustaría ver la película.')">Nos gustaría ver la película.</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="grammar-box">
+    <h4>Frases exclamativas · 感叹句</h4>
+    <p>三种结构：<span class="verb">qué + 形容词</span>（¡Qué guapo!）、<span class="verb">qué + 名词</span>（¡Qué maravilla! / ¡Qué horror!）、<span class="verb">qué + 名词 + tan/más + 形容词</span>（¡Qué día tan estupendo! / ¡Qué película tan buena!）。</p>
+  </div>
+
+  <div class="grammar-box">
+    <h4>El verbo parecer · 动词 parecer（觉得 / 看起来）</h4>
+    <p>结构：me / te / le / nos / os / les + <span class="verb">pareció / parecieron</span> + 评价词。</p>
+    <table class="vocab-table">
+      <thead><tr><th>问句</th><th>回答</th><th>中文</th></tr></thead>
+      <tbody>
+        <tr><td><span class="click" onclick="speak('¿Qué te pareció la película?')">¿Qué te pareció la película?</span></td><td><span class="click" onclick="speak('Me gustó mucho.')">Me gustó mucho.</span></td><td class="zh">你觉得那电影怎么样？/ 我很喜欢。</td></tr>
+        <tr><td><span class="click" onclick="speak('¿Qué te parecieron los libros?')">¿Qué te parecieron los libros?</span></td><td><span class="click" onclick="speak('Me parecieron un rollo.')">Me parecieron un rollo.</span></td><td class="zh">那些书你觉得如何？/ 我觉得挺无聊的。</td></tr>
+      </tbody>
+    </table>
+    <p>parecer 也接名词：<span class="click" onclick="speak('Me pareció una maravilla.')">Me pareció una maravilla.</span>（我觉得是件杰作。）提示：说到负面特征时常用 <span class="verb">un poco</span>（un poco caro / aburrido）。</p>
+  </div>
+
+  <div class="grammar-box">
+    <h4>Pasárselo bien / mal · 过得开心 / 糟糕</h4>
+    <p>结构：me / te / se / nos / os / se + <span class="verb">lo</span> + pasé / pasaste / pasó / pasamos / pasasteis / pasaron。</p>
+    <table class="vocab-table">
+      <thead><tr><th>例句</th><th>中文</th></tr></thead>
+      <tbody>
+        <tr><td><span class="click" onclick="speak('Yo me lo pasé muy bien, pero Ángela se aburrió un poco.')">Yo me lo pasé muy bien, pero Ángela se aburrió un poco.</span></td><td class="zh">我玩得很开心，但安赫拉有点无聊。</td></tr>
+        <tr><td><span class="click" onclick="speak('¿Qué tal la fiesta de cumpleaños?')">¿Qué tal la fiesta de cumpleaños?</span></td><td class="zh">生日派对怎么样？</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="grammar-box">
+    <h4>Valorar personas: caer bien / mal · 评价人（投缘与否）</h4>
+    <p>用 <span class="verb">caer bien / mal</span> 表示初识后是否合得来：<span class="click" onclick="speak('Ayer conocí a Pedro. Es muy simpático. Le cayó muy bien.')">Ayer conocí a Pedro. Es muy simpático. Le cayó muy bien.</span>（昨天认识了佩德罗，人很好，我很喜欢他。）复数：<span class="click" onclick="speak('Conocí a los padres de Paz. No le cayeron muy bien.')">Conocí a los padres de Paz. No le cayeron muy bien.</span>（认识了帕斯父母，他不太喜欢他们。）</p>
+  </div>
+
+  <div class="grammar-box">
+    <h4>Pretérito perfecto vs. indefinido · 现在完成时 vs. 简单过去时</h4>
+    <p>询问「是否做过、不在乎何时」或把过去事件与当下相连时用 <span class="verb">perfecto</span>：<span class="click" onclick="speak('¿Has estado alguna vez en Málaga? Sí, he estado tres o cuatro veces.')">¿Has estado alguna vez en Málaga? Sí, he estado tres o cuatro veces.</span> 讲述与当下无关的过去事实、配 ayer / el año pasado / la semana pasada 时用 <span class="verb">indefinido</span>：<span class="click" onclick="speak('El mes pasado estuve en Málaga, en Barcelona y en Milán.')">El mes pasado estuve en Málaga, en Barcelona y en Milán.</span></p>
+  </div>
+</section>
+
+<section class="page-section" id="cultura">
+  <h2>☕ Café Cultural · 文化角</h2>
+  <div class="cultura-box">
+    <h4>Lugares espectaculares del mundo hispano · 西语世界的奇观</h4>
+    <p>本单元介绍四处令人叹为观止的西语国家胜景：</p>
+    <p>· <span class="click" onclick="speak('Machu Picchu')">Machu Picchu</span>（秘鲁）：印加古城，传说为印加王帕查库特克所建，后成其陵墓，建筑与位置令人震撼。<br>
+    · <span class="click" onclick="speak('el Salar de Uyuni')">el Salar de Uyuni</span>（玻利维亚）：世界最大盐沼，位于安第斯高原，被火山环绕；11 月至 5 月干季可行走于盐层之上。<br>
+    · <span class="click" onclick="speak('las Capillas de mármol')">las Capillas de mármol</span>（巴塔哥尼亚）：大理石洞穴，蓝、粉、白三色、高达 4 米，可乘小船进入。<br>
+    · <span class="click" onclick="speak('Calakmul')">Calakmul</span>（墨西哥）：玛雅语意为「双金字塔之城」，保存完好的玛雅遗迹深藏于丛林之中。</p>
+    <p><b>中文对照：</b>这些自然与人文奇观在中文旅游语境里常被称作「世界新七大奇迹 / 自然奇观」一类；西语世界同样以此自豪。</p>
+  </div>
+</section>
+
+<div class="nav-buttons">
+  <a href="../index.html">← 返回首页</a>
+  <a class="secondary" href="#top">↑ 顶部</a>
+  <a href="A2_u08.html">下一单元 →</a>
+</div>
+
+<footer class="site-footer">
+  <p>Aula Internacional 2 (A2) · 本页内容依据原版教材提取并配中文翻译 · 发音使用浏览器西班牙语语音</p>
+  <p>© 西班牙语自学站 · 仅供学习使用</p>
+</footer>
+<script src="../js/aula-audio.js"></script>
+</body>
+</html>
