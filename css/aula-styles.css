@@ -84,6 +84,20 @@ table{width:100%;border-collapse:collapse;margin:14px 0;font-size:16px;}
 .nav-buttons a{background:linear-gradient(90deg,var(--es-red),var(--es-red-bright));color:#fff;text-decoration:none;padding:12px 22px;border-radius:12px;font-weight:700;box-shadow:0 4px 14px rgba(166,28,46,.3);transition:.2s;flex:1;text-align:center;min-width:150px;}
 .nav-buttons a:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(166,28,46,.4);}
 .nav-buttons a.secondary{background:linear-gradient(90deg,var(--es-blue),var(--es-blue-bright));box-shadow:0 4px 14px rgba(26,82,118,.3);}
+/* level menu (homepage 5 book buttons) */
+.level-menu{max-width:980px;margin:38px auto;padding:0 24px;display:flex;flex-direction:column;gap:16px;}
+.level-btn{display:flex;align-items:center;gap:18px;background:#fff;border:1px solid var(--border);border-left:6px solid var(--es-red);border-radius:16px;padding:22px 26px;text-decoration:none;color:inherit;box-shadow:0 4px 16px rgba(166,28,46,.08);transition:.25s;}
+.level-btn:hover{transform:translateX(5px);box-shadow:0 10px 26px rgba(166,28,46,.18);border-left-color:var(--es-gold);}
+.level-btn .lv-num{flex:0 0 auto;width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,var(--es-red),var(--es-red-dark));color:#fff;font-size:26px;font-weight:800;display:flex;align-items:center;justify-content:center;box-shadow:0 3px 10px rgba(166,28,46,.3);}
+.level-btn .lv-body{flex:1;min-width:0;}
+.level-btn .lv-title{display:block;font-size:22px;font-weight:800;color:var(--es-red);line-height:1.3;}
+.level-btn .lv-title em{font-style:normal;color:var(--es-gold);}
+.level-btn .lv-sub{display:block;color:var(--muted);font-size:14px;margin-top:4px;}
+.level-btn .lv-arrow{font-size:30px;color:var(--es-gold);font-weight:800;transition:transform .25s;}
+.level-btn:hover .lv-arrow{transform:translateX(7px);}
+/* secondary nav page */
+.nav-page .top-nav .logo{font-size:18px;}
+body.dark .level-btn{background:#241d14;}
 /* footer */
 .site-footer{background:var(--es-red-dark);color:#f3d9dd;padding:30px 24px;text-align:center;font-size:14px;margin-top:30px;}
 .site-footer a{color:var(--es-gold-bright);}
