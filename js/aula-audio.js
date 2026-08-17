@@ -42,18 +42,62 @@
     window.speechSynthesis.speak(u);
   }
 
+  // currently playing pre-baked mp3 (so a new click can interrupt it)
+  let currentAudio = null;
+
   window.speak = function(text){
     if (!text) return;
+    // interruption: stop any audio currently playing before starting the new one
+    if (currentAudio){
+      try { currentAudio.pause(); currentAudio.currentTime = 0; } catch(e){}
+      currentAudio = null;
+    }
+    if (window.speechSynthesis) window.speechSynthesis.cancel();
     getManifest().then(m => {
       const f = m.get(text);
       if (f){
         const audio = new Audio('../audio/' + f);
-        audio.play().catch(() => browserSpeak(text));
+        audio.onended = function(){ if (currentAudio === audio) currentAudio = null; };
+        audio.onerror = function(){ currentAudio = null; browserSpeak(text); };
+        currentAudio = audio;
+        audio.play().catch(() => { currentAudio = null; browserSpeak(text); });
       } else {
         browserSpeak(text);
       }
     });
   };
+
+  // Split a clickable cell like "italiano / italiana" into two individually
+  // clickable + individually voiced parts. Only short 2-part word pairs are
+  // split; full sentences (containing . ! ? ¡ ¿) and long lists are kept whole.
+  function splitSlashClicks(){
+    const spans = document.querySelectorAll('span.click');
+    spans.forEach(function(span){
+      const attr = span.getAttribute('onclick') || '';
+      const mm = attr.match(/^\s*speak\('((?:[^'\\]|\\.)*?)'\)\s*$/);
+      if (!mm) return;
+      const text = mm[1];
+      if (text.indexOf(' / ') === -1) return;
+      if (/[.!?¡¿]/.test(text)) return;          // sentence → keep whole
+      const parts = text.split(' / ');
+      if (parts.length !== 2 || text.length > 65) return; // only 2-part pairs
+      const frag = document.createDocumentFragment();
+      parts.forEach(function(p, i){
+        if (i > 0) frag.appendChild(document.createTextNode(' / '));
+        const s = document.createElement('span');
+        s.className = 'click';
+        s.setAttribute('onclick', "speak('" + p.replace(/\\/g,'\\\\').replace(/'/g,"\\'") + "')");
+        s.textContent = p;
+        frag.appendChild(s);
+      });
+      span.replaceWith(frag);
+    });
+  }
+  if (document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', splitSlashClicks);
+  } else {
+    splitSlashClicks();
+  }
 
   // scroll progress + nav color
   window.addEventListener('scroll', function(){
